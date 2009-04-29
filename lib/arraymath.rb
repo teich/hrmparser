@@ -4,11 +4,13 @@ require 'enumerator'
 module ArrayMath
 
   def average
-    return 0.0 if self.size == 0
-    self.sum / self.size
+    accum = self.sum
+    return nil if accum.nil? || self.size == 0
+    accum / self.size
   end
 
   def sum
+    self.map {|i| return nil if i.is_a?(String)}
     inject(0){ |sum,item| sum + item }
   end
   

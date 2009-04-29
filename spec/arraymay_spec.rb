@@ -7,6 +7,10 @@ module ArrayMath
         array = [1,2,3,4,5]
         array.sum.should == 15
       end
+      it "can not sum an array of strings" do
+        array = ["hello", "goodbye"]
+        array.sum.should == nil
+      end
     end
   end
 end
