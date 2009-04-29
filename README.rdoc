@@ -1,32 +1,26 @@
 = hrmparser
 
-* FIX (url)
+* http://github.com/teich/hrmparser/tree/master
 
 == DESCRIPTION:
 
-FIX (describe your package)
+A ruby parser for polar and garmin hrm
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
-
-== SYNOPSIS:
-
-  FIX (code sample of usage)
+* Imports garmin 405.  Generates a workout object with some averages calculated.
+* Not the fastest right now.  
+* Very very early.  
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
-
-== INSTALL:
-
-* FIX (sudo gem install, anything else)
+* hpricot
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2009 FIXME full name
+Copyright (c) 2009 Oren Teich
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
