@@ -1,4 +1,4 @@
-require 'hrmparser/importer/garmin'
+require 'lib/hrmparser/importer/garmin'
 
 module Importer
   def Importer.file_type(name)

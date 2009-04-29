@@ -5,11 +5,12 @@ module Importer
     end
     
     def restore
-      workout = HRMParser::Workout.new
+      workout = HRMParser::Workout.new(:duration => 0)
       data = Importer.read_in_file(@file_name)
+      
       @xml = Hpricot::XML(data)
       workout.time = (@xml/:Id).innerHTML
-      workout.duration = 0.0
+
       (@xml/:Lap).each do |lap|
         f_time =  (lap/:TotalTimeSeconds).innerHTML
         workout.duration += Float f_time
@@ -54,7 +55,7 @@ module Importer
         workout.trackpoints = trackpoints
         workout.distance = trackpoints.last.distance if !trackpoints.last.distance.nil?
         workout.calc_average_speed! 
-        # workout.elevation_gain = @workout.calc_elevation_gain
+        workout.calc_altitude_gain!
         workout.calc_average_hr!
       end
 

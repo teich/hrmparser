@@ -65,11 +65,15 @@ module HRMParser
           workout = importer.restore
           workout.duration.should be_close(755, 1)
         end
-        it "calculates distance of workout on indoor garmin" do
+        it "indoor workout has no trackpoints" do
           filename = "spec/samples/indoor-garmin-405.TCX"
           importer = Importer::Garmin.new(:file_name => filename)
           workout = importer.restore
           workout.distance.should == nil
+          workout.average_hr.should == nil
+          workout.average_speed.should == nil
+          workout.altitude_gain.should == nil
+          workout.trackpoints == nil
         end
         it "gets workout level settings for outdoor workout" do
           filename = "spec/samples/outdoor-garmin-405.TCX"
@@ -78,6 +82,7 @@ module HRMParser
           workout.distance.should be_close(11740, 5)
           workout.average_hr.should == 149
           workout.average_speed.should be_close(1.5, 0.2)
+          workout.altitude_gain.should be_close(572, 1.0)
         end
       end
     end

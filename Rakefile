@@ -3,7 +3,7 @@ require File.dirname(__FILE__) + '/lib/hrmparser'
 
 # Generate all the Rake tasks
 # Run 'rake -T' to see list of generated tasks (from gem root directory)
-$hoe = Hoe.new('hrmparser', Hrmparser::VERSION) do |p|
+$hoe = Hoe.new('hrmparser', HRMParser::VERSION::STRING) do |p|
   p.developer('Oren Teich', 'oren@teich.net')
   p.changes              = p.paragraphs_of("History.txt", 0..1).join("\n\n")
   p.rubyforge_name       = p.name # TODO this is default value

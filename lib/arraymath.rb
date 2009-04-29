@@ -1,3 +1,6 @@
+require 'enumerator'
+
+# Set of basic array math functions.  
 module ArrayMath
 
   def average
@@ -8,6 +11,11 @@ module ArrayMath
   def sum
     inject(0){ |sum,item| sum + item }
   end
+  
+  ## Retun array FACTOR smaller.  Average values to get smaller
+  def smoothed(factor)
+    self.enum_for(:each_slice, factor).map { |snipit| snipit.compact.average }
+  end  
 end
 
 class Array
