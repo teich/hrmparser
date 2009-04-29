@@ -9,7 +9,7 @@ module Importer
       data = Importer.read_in_file(@file_name)
       
       @xml = Hpricot::XML(data)
-      workout.time = (@xml/:Id).innerHTML
+      workout.time = Time.parse((@xml/:Id).innerHTML)
 
       (@xml/:Lap).each do |lap|
         f_time =  (lap/:TotalTimeSeconds).innerHTML

@@ -1,3 +1,6 @@
+== 0.0.2 2009-04-29
+* Added support for Polar HRM
+
 == 0.0.1 2009-04-28
 
 * 1 major enhancement:
