@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+
+  <Activities>
+    <Activity Sport="Running">
+      <Id>2008-08-22T01:04:55Z</Id>
+      <Lap StartTime="2008-08-22T01:04:55Z">
+        <TotalTimeSeconds>269.0800000</TotalTimeSeconds>
+        <DistanceMeters>1609.3470459</DistanceMeters>
+        <MaximumSpeed>7.3090658</MaximumSpeed>
+        <Calories>110</Calories>
+        <Intensity>Active</Intensity>
+        <TriggerMethod>Distance</TriggerMethod>
+      </Lap>
+      <Lap StartTime="2008-08-22T01:10:10Z">
+        <TotalTimeSeconds>243.2400000</TotalTimeSeconds>
+        <DistanceMeters>1609.3470459</DistanceMeters>
+        <MaximumSpeed>9.7027321</MaximumSpeed>
+        <Calories>97</Calories>
+        <Intensity>Active</Intensity>
+        <TriggerMethod>Distance</TriggerMethod>
+      </Lap>
+      <Lap StartTime="2008-08-22T01:14:52Z">
+        <TotalTimeSeconds>242.8100000</TotalTimeSeconds>
+        <DistanceMeters>1553.5861816</DistanceMeters>
+        <MaximumSpeed>9.8123379</MaximumSpeed>
+        <Calories>103</Calories>
+        <Intensity>Active</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+      </Lap>
+      <Creator xsi:type="Device_t">
+        <Name>Forerunner 405</Name>
+        <UnitId>3454050485</UnitId>
+        <ProductID>717</ProductID>
+        <Version>
+          <VersionMajor>2</VersionMajor>
+          <VersionMinor>40</VersionMinor>
+          <BuildMajor>0</BuildMajor>
+          <BuildMinor>0</BuildMinor>
+        </Version>
+      </Creator>
+    </Activity>
+  </Activities>
+
+  <Author xsi:type="Application_t">
+    <Name>Garmin ANT Agent</Name>
+    <Build>
+      <Version>
+        <VersionMajor>2</VersionMajor>
+        <VersionMinor>0</VersionMinor>
+        <BuildMajor>3</BuildMajor>
+        <BuildMinor>0</BuildMinor>
+      </Version>
+      <Type>Release</Type>
+      <Time>Mar 11 2009, 16:19:10</Time>
+      <Builder>carlsonk</Builder>
+    </Build>
+    <LangID>en</LangID>
+    <PartNumber>006-A0350-00</PartNumber>
+  </Author>
+
+</TrainingCenterDatabase>
