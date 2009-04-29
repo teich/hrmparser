@@ -12,5 +12,15 @@ module ArrayMath
         array.sum.should == nil
       end
     end
+    context "average" do
+      it "averages an array of integers and returns a float" do
+        array = [2,3,4,3,2]
+        array.average.should == 2.8
+      end
+      it "averages an array of floats" do
+        array = [1.5,2.5,3.5,2.5,1.5]
+        array.average.should == 2.3
+      end
+    end
   end
 end

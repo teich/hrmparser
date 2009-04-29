@@ -6,7 +6,7 @@ module ArrayMath
   def average
     accum = self.sum
     return nil if accum.nil? || self.size == 0
-    accum / self.size
+    accum.to_f / self.size
   end
 
   def sum

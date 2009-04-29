@@ -80,7 +80,7 @@ module HRMParser
           importer = Importer::Garmin.new(:file_name => filename)
           workout = importer.restore
           workout.distance.should be_close(11740, 5)
-          workout.average_hr.should == 149
+          workout.average_hr.should be_close(149.7, 0.5)
           workout.average_speed.should be_close(1.5, 0.2)
           workout.altitude_gain.should be_close(572, 1.0)
         end
