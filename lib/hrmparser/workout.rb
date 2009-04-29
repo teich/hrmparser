@@ -16,11 +16,11 @@ module HRMParser
     
     
     def calc_average_hr!
-      @average_hr = heart_rates.compact.average
+      @average_hr = heart_rates.compact.aaverage
     end
     
     def calc_average_speed! 
-      @average_speed = speeds.compact.average
+      @average_speed = speeds.compact.aaverage
     end
     
     def calc_altitude_gain!

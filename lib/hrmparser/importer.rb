@@ -1,5 +1,5 @@
-require 'lib/hrmparser/importer/garmin'
-require 'lib/hrmparser/importer/polar'
+require 'importer/garmin'
+require 'importer/polar'
 
 module Importer
   def Importer.file_type(name)

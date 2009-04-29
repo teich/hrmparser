@@ -2,8 +2,12 @@ require 'rubygems'
 require 'hpricot'
 require 'time'
 
-require 'lib/arraymath'
-require 'lib/hrmparser/version'
-require 'lib/hrmparser/trackpoint'
-require 'lib/hrmparser/workout'
-require 'lib/hrmparser/importer'
+module HRMParser; end
+
+$LOAD_PATH.unshift(File.dirname(__FILE__) + '/hrmparser')
+
+require 'arraymath'
+require 'version'
+require 'trackpoint'
+require 'workout'
+require 'importer'
