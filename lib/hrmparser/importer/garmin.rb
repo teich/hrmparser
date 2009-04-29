@@ -1,14 +1,14 @@
 module Importer
   class Garmin
-    def initialize(opts = {:file_name => nil})
-      @file_name = opts[:file_name]
+    def initialize(opts = {:file => nil})
+      @file = opts[:file]
     end
     
     def restore
       workout = HRMParser::Workout.new(:duration => 0)
-      data = Importer.read_in_file(@file_name)
+      #data = Importer.read_in_file(@file_name)
       
-      @xml = Hpricot::XML(data)
+      @xml = Hpricot::XML(@file)
       workout.time = Time.parse((@xml/:Id).innerHTML)
 
       (@xml/:Lap).each do |lap|

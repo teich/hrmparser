@@ -2,8 +2,8 @@ module HRMParser # :nodoc:
   module VERSION # :nodoc:
     unless defined? MAJOR
       MAJOR  = 0
-      MINOR  = 1
-      TINY   = 3
+      MINOR  = 2
+      TINY   = 0
       
       STRING = [MAJOR, MINOR, TINY].compact.join('.')
 

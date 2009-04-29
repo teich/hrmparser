@@ -1,3 +1,6 @@
+== 0.2.0 2009-04-29
+* turns out I need the importer to take a open file handle, not a string. 
+
 == 0.1.1 2009-04-29
 * Added support for Polar HRM
 * Actually making a gem
