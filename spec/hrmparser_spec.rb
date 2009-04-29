@@ -110,8 +110,8 @@ module HRMParser
           workout = importer.restore
           workout.trackpoints.each {|tp| tp.hr.should < 220 && tp.hr.should > 30}
           workout.average_hr.should be_close(115, 1)
+          workout.average_speed.should == nil
       end
     end
   end
-
 end
