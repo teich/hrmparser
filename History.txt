@@ -1,9 +1,0 @@
-== 0.2.0 2009-04-29
-* Importer takes a string of data now instead of file handle
-== 0.1.1 2009-04-29
-* Added support for Polar HRM
-* Actually making a gem
-
-== 0.0.1 2009-04-28
-
- * Initial release
