@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{hrmparser}
-  s.version = "0.1.1"
+  s.version = "0.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Oren Teich"]
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{A ruby parser for polar and garmin hrm}
   s.email = ["oren@teich.net"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.rdoc"]
-  s.files = ["History.txt", "Manifest.txt", "README.rdoc", "Rakefile", "lib/hrmparser.rb", "lib/arraymath.rb", "lib/hrmparser/workout.rb", "lib/hrmparser/version.rb", "lib/hrmparser/trackpoint.rb", "lib/hrmparser/importer.rb", "lib/hrmparser/importer/garmin.rb", "lib/hrmparser/importer/polar.rb", "script/console", "script/destroy", "script/generate", "spec/hrmparser_spec.rb", "spec/arraymath_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "tasks/rspec.rake"]
+  s.files = ["History.txt", "Manifest.txt", "README.rdoc", "Rakefile", "lib/hrmparser.rb", "lib/hrmparser/arraymath.rb", "lib/hrmparser/workout.rb", "lib/hrmparser/version.rb", "lib/hrmparser/trackpoint.rb", "lib/hrmparser/importer.rb", "lib/hrmparser/importer/garmin.rb", "lib/hrmparser/importer/polar.rb", "script/console", "script/destroy", "script/generate", "spec/hrmparser_spec.rb", "spec/arraymath_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "tasks/rspec.rake"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/teich/hrmparser/tree/master}
   s.rdoc_options = ["--main", "README.rdoc"]
