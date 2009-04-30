@@ -3,15 +3,15 @@ module Importer
     
     attr_reader :time_zone
     
-    def initialize(opts = {:file => nil, :time_zone => "UTC"})
-      @file = opts[:file]
+    def initialize(opts = {:data => nil, :time_zone => "UTC"})
+      @data = opts[:data]
       @time_zone = opts[:time_zone]
     end      
     
     def restore
       workout = HRMParser::Workout.new(:duration => 0)
       #filehandle = Importer.read_in_file(@file_name)
-      @data = @file.read
+      #@data = @file.read
       
       params = parse_params
 
