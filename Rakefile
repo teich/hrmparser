@@ -34,6 +34,10 @@ begin
     gemspec.homepage = "http://github.com/teich/hrmparser"
     gemspec.description = "Parses Polar and Garmin HRM files."
     gemspec.authors = ["Oren Teich"]
+    
+    gemspec.files.exclude 'spec/samples/**/*'
+    gemspec.test_files.exclude 'spec/samples/**/*'
+    
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"

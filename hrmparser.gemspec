@@ -13,8 +13,6 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
-    "History.txt",
-    "Manifest.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION.yml",
@@ -24,15 +22,9 @@ Gem::Specification.new do |s|
     "lib/hrmparser/importer/garmin.rb",
     "lib/hrmparser/importer/polar.rb",
     "lib/hrmparser/trackpoint.rb",
-    "lib/hrmparser/version.rb",
     "lib/hrmparser/workout.rb",
     "spec/arraymath_spec.rb",
     "spec/hrmparser_spec.rb",
-    "spec/samples/indoor-garmin-405.TCX",
-    "spec/samples/outdoor-garmin-405.TCX",
-    "spec/samples/polarRS200.hrm",
-    "spec/samples/polarRS800-RR.hrm",
-    "spec/samples/polarRS800-bike.hrm",
     "spec/spec.opts",
     "spec/spec_helper.rb"
   ]
