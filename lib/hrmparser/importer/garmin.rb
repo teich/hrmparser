@@ -26,11 +26,16 @@ module Importer
         trackpoint = HRMParser::TrackPoint.new
         next if ((t/:HeartRateBpm/:Value).innerHTML == "")
         trackpoint.hr = (t/:HeartRateBpm/:Value).innerHTML.to_i
-        trackpoint.lat = (t/:Position/:LatitudeDegrees).innerHTML.to_f
-        trackpoint.lng = (t/:Position/:LongitudeDegrees).innerHTML.to_f
         trackpoint.time = Time.parse((t/:Time).innerHTML)
         trackpoint.altitude = (t/:AltitudeMeters).innerHTML.to_f
         trackpoint.distance = (t/:DistanceMeters).innerHTML.to_f
+
+        (t/:Position).each do |p|
+          trackpoint.lat = (p/:LatitudeDegrees).innerHTML.to_f
+          trackpoint.lng = (p/:LongitudeDegrees).innerHTML.to_f
+        end
+
+
         trackpoints << trackpoint
         
     

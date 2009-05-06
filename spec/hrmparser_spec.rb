@@ -72,14 +72,14 @@ module HRMParser
           data = File.read(filename)
           importer = Importer::Garmin.new(:data => data)
           workout = importer.restore
-          workout.distance.should == nil
-          workout.average_hr.should == nil
-          workout.average_speed.should == nil
-          workout.altitude_gain.should == nil
-          workout.trackpoints == nil
+          workout.distance.should be_nil
+          workout.average_hr.should be_nil
+          workout.average_speed.should be_nil
+          workout.altitude_gain.should be_nil
+          workout.trackpoints.should == {}
         end
         
-        ## Parsing the full XML is just slow.  Commenting out for now.
+        # Parsing the full XML is just slow.  Commenting out for now.
         it "gets workout level settings for outdoor workout" do
           filename = "spec/samples/outdoor-garmin-405.TCX"
           data = File.read(filename)
@@ -89,6 +89,14 @@ module HRMParser
           workout.average_hr.should be_close(149.7, 0.5)
           workout.average_speed.should be_close(1.5, 0.2)
           workout.altitude_gain.should be_close(572, 1.0)
+        end
+        
+        it "doesn't have any 0 in latitude" do
+          filename = "spec/samples/garmin-405-with-0-0.TCX"
+          data = File.read(filename)
+          importer = Importer::Garmin.new(:data => data)
+          workout = importer.restore
+          workout.trackpoints.map {|tp| tp.lat.should_not == 0.0}
         end
       end
       
