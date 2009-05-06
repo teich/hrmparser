@@ -1,0 +1,2 @@
+0.2.3
+	Now should keep lat and lng set to nil when they don't exist in garmin files.
