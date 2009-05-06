@@ -1,2 +1,5 @@
+0.3.1 - May 6th, 2009
+	Handles missing data in a trackpoint now, including no lat and lng.
+	
 0.2.3
 	Now should keep lat and lng set to nil when they don't exist in garmin files.
