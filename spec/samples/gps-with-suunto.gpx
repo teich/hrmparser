@@ -1,0 +1,2200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx
+  version="1.0"
+  creator="GPSBabel - http://www.gpsbabel.org"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.topografix.com/GPX/1/0"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<time>2009-05-08T00:58:35Z</time>
+<bounds minlat="7.308393300" minlon="-122.182231600" maxlat="37.447496600" maxlon="114.172228300"/>
+<wpt lat="15.884321600" lon="108.348706600">
+  <ele>0.000000</ele>
+  <time>2009-03-10T06:35:50Z</time>
+  <name>WP0001</name>
+  <cmt>WP0001</cmt>
+  <desc>WP0001</desc>
+</wpt>
+<trk>
+<trkseg>
+<trkpt lat="37.417845000" lon="-122.122133300">
+  <ele>184.000000</ele>
+  <time>2009-05-07T21:32:31Z</time>
+  <name>TP23593</name>
+</trkpt>
+<trkpt lat="37.417839900" lon="-122.122134900">
+  <ele>184.000000</ele>
+  <time>2009-05-07T21:32:54Z</time>
+  <name>TP23594</name>
+</trkpt>
+<trkpt lat="37.417801600" lon="-122.122216600">
+  <ele>178.000000</ele>
+  <time>2009-05-07T21:32:59Z</time>
+  <name>TP23595</name>
+</trkpt>
+<trkpt lat="37.417696600" lon="-122.122425000">
+  <ele>177.000000</ele>
+  <time>2009-05-07T21:33:04Z</time>
+  <name>TP23596</name>
+</trkpt>
+<trkpt lat="37.417443300" lon="-122.122533300">
+  <ele>177.000000</ele>
+  <time>2009-05-07T21:33:09Z</time>
+  <name>TP23597</name>
+</trkpt>
+<trkpt lat="37.417121600" lon="-122.122673300">
+  <ele>177.000000</ele>
+  <time>2009-05-07T21:33:14Z</time>
+  <name>TP23598</name>
+</trkpt>
+<trkpt lat="37.416666600" lon="-122.123048300">
+  <ele>177.000000</ele>
+  <time>2009-05-07T21:33:24Z</time>
+  <name>TP23599</name>
+</trkpt>
+<trkpt lat="37.416174900" lon="-122.123435000">
+  <ele>176.000000</ele>
+  <time>2009-05-07T21:33:34Z</time>
+  <name>TP23600</name>
+</trkpt>
+<trkpt lat="37.415779900" lon="-122.123724900">
+  <ele>176.000000</ele>
+  <time>2009-05-07T21:33:44Z</time>
+  <name>TP23601</name>
+</trkpt>
+<trkpt lat="37.415598300" lon="-122.123840000">
+  <ele>175.000000</ele>
+  <time>2009-05-07T21:33:49Z</time>
+  <name>TP23602</name>
+</trkpt>
+<trkpt lat="37.415391600" lon="-122.124006600">
+  <ele>175.000000</ele>
+  <time>2009-05-07T21:33:54Z</time>
+  <name>TP23603</name>
+</trkpt>
+<trkpt lat="37.415133300" lon="-122.124194900">
+  <ele>175.000000</ele>
+  <time>2009-05-07T21:33:59Z</time>
+  <name>TP23604</name>
+</trkpt>
+<trkpt lat="37.414661600" lon="-122.124560000">
+  <ele>174.000000</ele>
+  <time>2009-05-07T21:34:09Z</time>
+  <name>TP23605</name>
+</trkpt>
+<trkpt lat="37.414578300" lon="-122.124686600">
+  <ele>174.000000</ele>
+  <time>2009-05-07T21:34:14Z</time>
+  <name>TP23606</name>
+</trkpt>
+<trkpt lat="37.414571600" lon="-122.124658300">
+  <ele>174.000000</ele>
+  <time>2009-05-07T21:34:19Z</time>
+  <name>TP23607</name>
+</trkpt>
+<trkpt lat="37.414348300" lon="-122.124516600">
+  <ele>174.000000</ele>
+  <time>2009-05-07T21:34:24Z</time>
+  <name>TP23608</name>
+</trkpt>
+<trkpt lat="37.414146600" lon="-122.124420000">
+  <ele>174.000000</ele>
+  <time>2009-05-07T21:34:29Z</time>
+  <name>TP23609</name>
+</trkpt>
+<trkpt lat="37.413955000" lon="-122.124299900">
+  <ele>174.000000</ele>
+  <time>2009-05-07T21:34:34Z</time>
+  <name>TP23610</name>
+</trkpt>
+<trkpt lat="37.413830000" lon="-122.124301600">
+  <ele>174.000000</ele>
+  <time>2009-05-07T21:34:39Z</time>
+  <name>TP23611</name>
+</trkpt>
+<trkpt lat="37.413698300" lon="-122.124293300">
+  <ele>174.000000</ele>
+  <time>2009-05-07T21:34:44Z</time>
+  <name>TP23612</name>
+</trkpt>
+<trkpt lat="37.413578300" lon="-122.124276600">
+  <ele>174.000000</ele>
+  <time>2009-05-07T21:34:49Z</time>
+  <name>TP23613</name>
+</trkpt>
+<trkpt lat="37.412578300" lon="-122.123891600">
+  <ele>174.000000</ele>
+  <time>2009-05-07T21:34:54Z</time>
+  <name>TP23614</name>
+</trkpt>
+<trkpt lat="37.412018300" lon="-122.123994900">
+  <ele>174.000000</ele>
+  <time>2009-05-07T21:34:59Z</time>
+  <name>TP23615</name>
+</trkpt>
+<trkpt lat="37.411328300" lon="-122.124208300">
+  <ele>174.000000</ele>
+  <time>2009-05-07T21:35:09Z</time>
+  <name>TP23616</name>
+</trkpt>
+<trkpt lat="37.410760000" lon="-122.124456600">
+  <ele>174.000000</ele>
+  <time>2009-05-07T21:35:19Z</time>
+  <name>TP23617</name>
+</trkpt>
+<trkpt lat="37.410185000" lon="-122.124678300">
+  <ele>173.000000</ele>
+  <time>2009-05-07T21:35:29Z</time>
+  <name>TP23618</name>
+</trkpt>
+<trkpt lat="37.409641600" lon="-122.124983300">
+  <ele>173.000000</ele>
+  <time>2009-05-07T21:35:39Z</time>
+  <name>TP23619</name>
+</trkpt>
+<trkpt lat="37.409068300" lon="-122.125351600">
+  <ele>173.000000</ele>
+  <time>2009-05-07T21:35:49Z</time>
+  <name>TP23620</name>
+</trkpt>
+<trkpt lat="37.408508300" lon="-122.125800000">
+  <ele>172.000000</ele>
+  <time>2009-05-07T21:35:59Z</time>
+  <name>TP23621</name>
+</trkpt>
+<trkpt lat="37.407945000" lon="-122.126318300">
+  <ele>172.000000</ele>
+  <time>2009-05-07T21:36:09Z</time>
+  <name>TP23622</name>
+</trkpt>
+<trkpt lat="37.407429900" lon="-122.126643300">
+  <ele>171.000000</ele>
+  <time>2009-05-07T21:36:19Z</time>
+  <name>TP23623</name>
+</trkpt>
+<trkpt lat="37.406963300" lon="-122.126873300">
+  <ele>170.000000</ele>
+  <time>2009-05-07T21:36:29Z</time>
+  <name>TP23624</name>
+</trkpt>
+<trkpt lat="37.406378300" lon="-122.127261600">
+  <ele>169.000000</ele>
+  <time>2009-05-07T21:36:39Z</time>
+  <name>TP23625</name>
+</trkpt>
+<trkpt lat="37.405820000" lon="-122.127666600">
+  <ele>168.000000</ele>
+  <time>2009-05-07T21:36:49Z</time>
+  <name>TP23626</name>
+</trkpt>
+<trkpt lat="37.405199900" lon="-122.128096600">
+  <ele>167.000000</ele>
+  <time>2009-05-07T21:36:59Z</time>
+  <name>TP23627</name>
+</trkpt>
+<trkpt lat="37.404910000" lon="-122.129146600">
+  <ele>166.000000</ele>
+  <time>2009-05-07T21:37:09Z</time>
+  <name>TP23628</name>
+</trkpt>
+<trkpt lat="37.404455000" lon="-122.129289900">
+  <ele>165.000000</ele>
+  <time>2009-05-07T21:37:19Z</time>
+  <name>TP23629</name>
+</trkpt>
+<trkpt lat="37.404286600" lon="-122.128860000">
+  <ele>165.000000</ele>
+  <time>2009-05-07T21:37:24Z</time>
+  <name>TP23630</name>
+</trkpt>
+<trkpt lat="37.404210000" lon="-122.128866600">
+  <ele>161.000000</ele>
+  <time>2009-05-07T21:37:29Z</time>
+  <name>TP23631</name>
+</trkpt>
+<trkpt lat="37.404198300" lon="-122.128613300">
+  <ele>159.000000</ele>
+  <time>2009-05-07T21:37:34Z</time>
+  <name>TP23632</name>
+</trkpt>
+<trkpt lat="37.404256600" lon="-122.127956600">
+  <ele>155.000000</ele>
+  <time>2009-05-07T21:37:44Z</time>
+  <name>TP23633</name>
+</trkpt>
+<trkpt lat="37.403968300" lon="-122.128136600">
+  <ele>153.000000</ele>
+  <time>2009-05-07T21:37:49Z</time>
+  <name>TP23634</name>
+</trkpt>
+<trkpt lat="37.403243300" lon="-122.128461600">
+  <ele>147.000000</ele>
+  <time>2009-05-07T21:37:59Z</time>
+  <name>TP23635</name>
+</trkpt>
+<trkpt lat="37.402423300" lon="-122.128785000">
+  <ele>139.000000</ele>
+  <time>2009-05-07T21:38:09Z</time>
+  <name>TP23636</name>
+</trkpt>
+<trkpt lat="37.401788300" lon="-122.129195000">
+  <ele>133.000000</ele>
+  <time>2009-05-07T21:38:19Z</time>
+  <name>TP23637</name>
+</trkpt>
+<trkpt lat="37.401280000" lon="-122.129541600">
+  <ele>126.000000</ele>
+  <time>2009-05-07T21:38:29Z</time>
+  <name>TP23638</name>
+</trkpt>
+<trkpt lat="37.400866600" lon="-122.130004900">
+  <ele>117.000000</ele>
+  <time>2009-05-07T21:38:39Z</time>
+  <name>TP23639</name>
+</trkpt>
+<trkpt lat="37.400484900" lon="-122.130559900">
+  <ele>111.000000</ele>
+  <time>2009-05-07T21:38:49Z</time>
+  <name>TP23640</name>
+</trkpt>
+<trkpt lat="37.400199900" lon="-122.131076600">
+  <ele>108.000000</ele>
+  <time>2009-05-07T21:38:59Z</time>
+  <name>TP23641</name>
+</trkpt>
+<trkpt lat="37.400098300" lon="-122.131326600">
+  <ele>106.000000</ele>
+  <time>2009-05-07T21:39:04Z</time>
+  <name>TP23642</name>
+</trkpt>
+<trkpt lat="37.400011600" lon="-122.131706600">
+  <ele>103.000000</ele>
+  <time>2009-05-07T21:39:09Z</time>
+  <name>TP23643</name>
+</trkpt>
+<trkpt lat="37.399896600" lon="-122.132023300">
+  <ele>101.000000</ele>
+  <time>2009-05-07T21:39:14Z</time>
+  <name>TP23644</name>
+</trkpt>
+<trkpt lat="37.399613300" lon="-122.132636600">
+  <ele>97.000000</ele>
+  <time>2009-05-07T21:39:24Z</time>
+  <name>TP23645</name>
+</trkpt>
+<trkpt lat="37.399336600" lon="-122.133334900">
+  <ele>94.000000</ele>
+  <time>2009-05-07T21:39:34Z</time>
+  <name>TP23646</name>
+</trkpt>
+<trkpt lat="37.399080000" lon="-122.133996600">
+  <ele>89.000000</ele>
+  <time>2009-05-07T21:39:44Z</time>
+  <name>TP23647</name>
+</trkpt>
+<trkpt lat="37.398986600" lon="-122.134269900">
+  <ele>82.000000</ele>
+  <time>2009-05-07T21:40:23Z</time>
+  <name>TP23648</name>
+</trkpt>
+<trkpt lat="37.398911600" lon="-122.134398300">
+  <ele>83.000000</ele>
+  <time>2009-05-07T21:40:28Z</time>
+  <name>TP23649</name>
+</trkpt>
+<trkpt lat="37.398761600" lon="-122.134463300">
+  <ele>83.000000</ele>
+  <time>2009-05-07T21:40:33Z</time>
+  <name>TP23650</name>
+</trkpt>
+<trkpt lat="37.398713300" lon="-122.134351600">
+  <ele>82.000000</ele>
+  <time>2009-05-07T21:40:38Z</time>
+  <name>TP23651</name>
+</trkpt>
+<trkpt lat="37.398656600" lon="-122.134133300">
+  <ele>82.000000</ele>
+  <time>2009-05-07T21:40:43Z</time>
+  <name>TP23652</name>
+</trkpt>
+<trkpt lat="37.398443300" lon="-122.133806600">
+  <ele>82.000000</ele>
+  <time>2009-05-07T21:40:48Z</time>
+  <name>TP23653</name>
+</trkpt>
+<trkpt lat="37.398053300" lon="-122.133285000">
+  <ele>82.000000</ele>
+  <time>2009-05-07T21:40:58Z</time>
+  <name>TP23654</name>
+</trkpt>
+<trkpt lat="37.397903300" lon="-122.133108300">
+  <ele>82.000000</ele>
+  <time>2009-05-07T21:41:03Z</time>
+  <name>TP23655</name>
+</trkpt>
+<trkpt lat="37.397659900" lon="-122.132893300">
+  <ele>82.000000</ele>
+  <time>2009-05-07T21:41:08Z</time>
+  <name>TP23656</name>
+</trkpt>
+<trkpt lat="37.397308300" lon="-122.132691600">
+  <ele>81.000000</ele>
+  <time>2009-05-07T21:41:13Z</time>
+  <name>TP23657</name>
+</trkpt>
+<trkpt lat="37.396635000" lon="-122.132256600">
+  <ele>80.000000</ele>
+  <time>2009-05-07T21:41:23Z</time>
+  <name>TP23658</name>
+</trkpt>
+<trkpt lat="37.395938300" lon="-122.131731600">
+  <ele>80.000000</ele>
+  <time>2009-05-07T21:41:33Z</time>
+  <name>TP23659</name>
+</trkpt>
+<trkpt lat="37.395235000" lon="-122.131281600">
+  <ele>78.000000</ele>
+  <time>2009-05-07T21:41:43Z</time>
+  <name>TP23660</name>
+</trkpt>
+<trkpt lat="37.394645000" lon="-122.130889900">
+  <ele>77.000000</ele>
+  <time>2009-05-07T21:41:53Z</time>
+  <name>TP23661</name>
+</trkpt>
+<trkpt lat="37.394009900" lon="-122.130478300">
+  <ele>76.000000</ele>
+  <time>2009-05-07T21:42:03Z</time>
+  <name>TP23662</name>
+</trkpt>
+<trkpt lat="37.393335000" lon="-122.130079900">
+  <ele>73.000000</ele>
+  <time>2009-05-07T21:42:13Z</time>
+  <name>TP23663</name>
+</trkpt>
+<trkpt lat="37.392618300" lon="-122.129610000">
+  <ele>72.000000</ele>
+  <time>2009-05-07T21:42:23Z</time>
+  <name>TP23664</name>
+</trkpt>
+<trkpt lat="37.391894900" lon="-122.129156600">
+  <ele>70.000000</ele>
+  <time>2009-05-07T21:42:33Z</time>
+  <name>TP23665</name>
+</trkpt>
+<trkpt lat="37.391249900" lon="-122.128655000">
+  <ele>69.000000</ele>
+  <time>2009-05-07T21:42:43Z</time>
+  <name>TP23666</name>
+</trkpt>
+<trkpt lat="37.390706600" lon="-122.128249900">
+  <ele>69.000000</ele>
+  <time>2009-05-07T21:42:53Z</time>
+  <name>TP23667</name>
+</trkpt>
+<trkpt lat="37.390099900" lon="-122.127861600">
+  <ele>68.000000</ele>
+  <time>2009-05-07T21:43:03Z</time>
+  <name>TP23668</name>
+</trkpt>
+<trkpt lat="37.389411600" lon="-122.127434900">
+  <ele>66.000000</ele>
+  <time>2009-05-07T21:43:13Z</time>
+  <name>TP23669</name>
+</trkpt>
+<trkpt lat="37.388725000" lon="-122.126974900">
+  <ele>66.000000</ele>
+  <time>2009-05-07T21:43:23Z</time>
+  <name>TP23670</name>
+</trkpt>
+<trkpt lat="37.388048300" lon="-122.126498300">
+  <ele>62.000000</ele>
+  <time>2009-05-07T21:43:33Z</time>
+  <name>TP23671</name>
+</trkpt>
+<trkpt lat="37.387478300" lon="-122.126129900">
+  <ele>59.000000</ele>
+  <time>2009-05-07T21:43:43Z</time>
+  <name>TP23672</name>
+</trkpt>
+<trkpt lat="37.386960000" lon="-122.125765000">
+  <ele>53.000000</ele>
+  <time>2009-05-07T21:43:53Z</time>
+  <name>TP23673</name>
+</trkpt>
+<trkpt lat="37.386499900" lon="-122.125408300">
+  <ele>49.000000</ele>
+  <time>2009-05-07T21:44:03Z</time>
+  <name>TP23674</name>
+</trkpt>
+<trkpt lat="37.385979900" lon="-122.124991600">
+  <ele>45.000000</ele>
+  <time>2009-05-07T21:44:13Z</time>
+  <name>TP23675</name>
+</trkpt>
+<trkpt lat="37.385469900" lon="-122.124563300">
+  <ele>43.000000</ele>
+  <time>2009-05-07T21:44:23Z</time>
+  <name>TP23676</name>
+</trkpt>
+<trkpt lat="37.384878300" lon="-122.124185000">
+  <ele>40.000000</ele>
+  <time>2009-05-07T21:44:33Z</time>
+  <name>TP23677</name>
+</trkpt>
+<trkpt lat="37.384415000" lon="-122.123759900">
+  <ele>43.000000</ele>
+  <time>2009-05-07T21:44:43Z</time>
+  <name>TP23678</name>
+</trkpt>
+<trkpt lat="37.383911600" lon="-122.123379900">
+  <ele>41.000000</ele>
+  <time>2009-05-07T21:44:53Z</time>
+  <name>TP23679</name>
+</trkpt>
+<trkpt lat="37.383411600" lon="-122.122991600">
+  <ele>39.000000</ele>
+  <time>2009-05-07T21:45:03Z</time>
+  <name>TP23680</name>
+</trkpt>
+<trkpt lat="37.382861600" lon="-122.122588300">
+  <ele>38.000000</ele>
+  <time>2009-05-07T21:45:13Z</time>
+  <name>TP23681</name>
+</trkpt>
+<trkpt lat="37.382276600" lon="-122.122068300">
+  <ele>38.000000</ele>
+  <time>2009-05-07T21:45:23Z</time>
+  <name>TP23682</name>
+</trkpt>
+<trkpt lat="37.381663300" lon="-122.121621600">
+  <ele>37.000000</ele>
+  <time>2009-05-07T21:45:33Z</time>
+  <name>TP23683</name>
+</trkpt>
+<trkpt lat="37.381130000" lon="-122.121160000">
+  <ele>31.000000</ele>
+  <time>2009-05-07T21:45:43Z</time>
+  <name>TP23684</name>
+</trkpt>
+<trkpt lat="37.380503300" lon="-122.120743300">
+  <ele>33.000000</ele>
+  <time>2009-05-07T21:45:53Z</time>
+  <name>TP23685</name>
+</trkpt>
+<trkpt lat="37.379861600" lon="-122.120308300">
+  <ele>39.000000</ele>
+  <time>2009-05-07T21:46:03Z</time>
+  <name>TP23686</name>
+</trkpt>
+<trkpt lat="37.379295000" lon="-122.119934900">
+  <ele>40.000000</ele>
+  <time>2009-05-07T21:46:13Z</time>
+  <name>TP23687</name>
+</trkpt>
+<trkpt lat="37.378768300" lon="-122.119494900">
+  <ele>46.000000</ele>
+  <time>2009-05-07T21:46:23Z</time>
+  <name>TP23688</name>
+</trkpt>
+<trkpt lat="37.378208300" lon="-122.119100000">
+  <ele>48.000000</ele>
+  <time>2009-05-07T21:46:33Z</time>
+  <name>TP23689</name>
+</trkpt>
+<trkpt lat="37.377701600" lon="-122.118671600">
+  <ele>51.000000</ele>
+  <time>2009-05-07T21:46:43Z</time>
+  <name>TP23690</name>
+</trkpt>
+<trkpt lat="37.377235000" lon="-122.118194900">
+  <ele>50.000000</ele>
+  <time>2009-05-07T21:46:53Z</time>
+  <name>TP23691</name>
+</trkpt>
+<trkpt lat="37.376596600" lon="-122.117735000">
+  <ele>48.000000</ele>
+  <time>2009-05-07T21:47:03Z</time>
+  <name>TP23692</name>
+</trkpt>
+<trkpt lat="37.375973300" lon="-122.117291600">
+  <ele>51.000000</ele>
+  <time>2009-05-07T21:47:13Z</time>
+  <name>TP23693</name>
+</trkpt>
+<trkpt lat="37.375336600" lon="-122.116791600">
+  <ele>50.000000</ele>
+  <time>2009-05-07T21:47:23Z</time>
+  <name>TP23694</name>
+</trkpt>
+<trkpt lat="37.374843300" lon="-122.116229900">
+  <ele>49.000000</ele>
+  <time>2009-05-07T21:47:33Z</time>
+  <name>TP23695</name>
+</trkpt>
+<trkpt lat="37.374274900" lon="-122.115699900">
+  <ele>49.000000</ele>
+  <time>2009-05-07T21:47:43Z</time>
+  <name>TP23696</name>
+</trkpt>
+<trkpt lat="37.373971600" lon="-122.115134900">
+  <ele>51.000000</ele>
+  <time>2009-05-07T21:47:53Z</time>
+  <name>TP23697</name>
+</trkpt>
+<trkpt lat="37.373733300" lon="-122.114838300">
+  <ele>52.000000</ele>
+  <time>2009-05-07T21:47:58Z</time>
+  <name>TP23698</name>
+</trkpt>
+<trkpt lat="37.373330000" lon="-122.114253300">
+  <ele>53.000000</ele>
+  <time>2009-05-07T21:48:08Z</time>
+  <name>TP23699</name>
+</trkpt>
+<trkpt lat="37.373069900" lon="-122.113936600">
+  <ele>54.000000</ele>
+  <time>2009-05-07T21:48:13Z</time>
+  <name>TP23700</name>
+</trkpt>
+<trkpt lat="37.372481600" lon="-122.113306600">
+  <ele>53.000000</ele>
+  <time>2009-05-07T21:48:23Z</time>
+  <name>TP23701</name>
+</trkpt>
+<trkpt lat="37.371985000" lon="-122.112664900">
+  <ele>55.000000</ele>
+  <time>2009-05-07T21:48:33Z</time>
+  <name>TP23702</name>
+</trkpt>
+<trkpt lat="37.371538300" lon="-122.112219900">
+  <ele>54.000000</ele>
+  <time>2009-05-07T21:48:43Z</time>
+  <name>TP23703</name>
+</trkpt>
+<trkpt lat="37.371370000" lon="-122.111939900">
+  <ele>53.000000</ele>
+  <time>2009-05-07T21:48:48Z</time>
+  <name>TP23704</name>
+</trkpt>
+<trkpt lat="37.370979900" lon="-122.111386600">
+  <ele>53.000000</ele>
+  <time>2009-05-07T21:48:58Z</time>
+  <name>TP23705</name>
+</trkpt>
+<trkpt lat="37.370651600" lon="-122.111018300">
+  <ele>54.000000</ele>
+  <time>2009-05-07T21:49:08Z</time>
+  <name>TP23706</name>
+</trkpt>
+<trkpt lat="37.370626600" lon="-122.111001600">
+  <ele>57.000000</ele>
+  <time>2009-05-07T21:49:30Z</time>
+  <name>TP23707</name>
+</trkpt>
+<trkpt lat="37.370574900" lon="-122.110909900">
+  <ele>57.000000</ele>
+  <time>2009-05-07T21:49:35Z</time>
+  <name>TP23708</name>
+</trkpt>
+<trkpt lat="37.370486600" lon="-122.110601600">
+  <ele>56.000000</ele>
+  <time>2009-05-07T21:49:40Z</time>
+  <name>TP23709</name>
+</trkpt>
+<trkpt lat="37.370338300" lon="-122.110341600">
+  <ele>55.000000</ele>
+  <time>2009-05-07T21:49:45Z</time>
+  <name>TP23710</name>
+</trkpt>
+<trkpt lat="37.370119900" lon="-122.110041600">
+  <ele>56.000000</ele>
+  <time>2009-05-07T21:49:50Z</time>
+  <name>TP23711</name>
+</trkpt>
+<trkpt lat="37.369524900" lon="-122.109259900">
+  <ele>56.000000</ele>
+  <time>2009-05-07T21:50:00Z</time>
+  <name>TP23712</name>
+</trkpt>
+<trkpt lat="37.368803300" lon="-122.108353300">
+  <ele>57.000000</ele>
+  <time>2009-05-07T21:50:10Z</time>
+  <name>TP23713</name>
+</trkpt>
+<trkpt lat="37.368154900" lon="-122.107528300">
+  <ele>57.000000</ele>
+  <time>2009-05-07T21:50:20Z</time>
+  <name>TP23714</name>
+</trkpt>
+<trkpt lat="37.367476600" lon="-122.106721600">
+  <ele>58.000000</ele>
+  <time>2009-05-07T21:50:30Z</time>
+  <name>TP23715</name>
+</trkpt>
+<trkpt lat="37.366760000" lon="-122.105801600">
+  <ele>59.000000</ele>
+  <time>2009-05-07T21:50:40Z</time>
+  <name>TP23716</name>
+</trkpt>
+<trkpt lat="37.366008300" lon="-122.104789900">
+  <ele>57.000000</ele>
+  <time>2009-05-07T21:50:50Z</time>
+  <name>TP23717</name>
+</trkpt>
+<trkpt lat="37.365141600" lon="-122.103716600">
+  <ele>50.000000</ele>
+  <time>2009-05-07T21:51:00Z</time>
+  <name>TP23718</name>
+</trkpt>
+<trkpt lat="37.364370000" lon="-122.102728300">
+  <ele>50.000000</ele>
+  <time>2009-05-07T21:51:10Z</time>
+  <name>TP23719</name>
+</trkpt>
+<trkpt lat="37.363629900" lon="-122.101768300">
+  <ele>43.000000</ele>
+  <time>2009-05-07T21:51:20Z</time>
+  <name>TP23720</name>
+</trkpt>
+<trkpt lat="37.363034900" lon="-122.100996600">
+  <ele>47.000000</ele>
+  <time>2009-05-07T21:51:30Z</time>
+  <name>TP23721</name>
+</trkpt>
+<trkpt lat="37.362423300" lon="-122.100164900">
+  <ele>46.000000</ele>
+  <time>2009-05-07T21:51:40Z</time>
+  <name>TP23722</name>
+</trkpt>
+<trkpt lat="37.361863300" lon="-122.099425000">
+  <ele>45.000000</ele>
+  <time>2009-05-07T21:51:50Z</time>
+  <name>TP23723</name>
+</trkpt>
+<trkpt lat="37.361343300" lon="-122.098848300">
+  <ele>43.000000</ele>
+  <time>2009-05-07T21:52:00Z</time>
+  <name>TP23724</name>
+</trkpt>
+<trkpt lat="37.360851600" lon="-122.098234900">
+  <ele>39.000000</ele>
+  <time>2009-05-07T21:52:10Z</time>
+  <name>TP23725</name>
+</trkpt>
+<trkpt lat="37.360404900" lon="-122.097621600">
+  <ele>39.000000</ele>
+  <time>2009-05-07T21:52:20Z</time>
+  <name>TP23726</name>
+</trkpt>
+<trkpt lat="37.360038300" lon="-122.097241600">
+  <ele>45.000000</ele>
+  <time>2009-05-07T21:52:30Z</time>
+  <name>TP23727</name>
+</trkpt>
+<trkpt lat="37.359888300" lon="-122.096949900">
+  <ele>46.000000</ele>
+  <time>2009-05-07T21:52:35Z</time>
+  <name>TP23728</name>
+</trkpt>
+<trkpt lat="37.359329900" lon="-122.096313300">
+  <ele>38.000000</ele>
+  <time>2009-05-07T21:52:45Z</time>
+  <name>TP23729</name>
+</trkpt>
+<trkpt lat="37.358969900" lon="-122.095653300">
+  <ele>40.000000</ele>
+  <time>2009-05-07T21:52:55Z</time>
+  <name>TP23730</name>
+</trkpt>
+<trkpt lat="37.358424900" lon="-122.094866600">
+  <ele>45.000000</ele>
+  <time>2009-05-07T21:53:05Z</time>
+  <name>TP23731</name>
+</trkpt>
+<trkpt lat="37.357908300" lon="-122.094186600">
+  <ele>48.000000</ele>
+  <time>2009-05-07T21:53:15Z</time>
+  <name>TP23732</name>
+</trkpt>
+<trkpt lat="37.357291600" lon="-122.093418300">
+  <ele>48.000000</ele>
+  <time>2009-05-07T21:53:25Z</time>
+  <name>TP23733</name>
+</trkpt>
+<trkpt lat="37.356631600" lon="-122.092655000">
+  <ele>47.000000</ele>
+  <time>2009-05-07T21:53:35Z</time>
+  <name>TP23734</name>
+</trkpt>
+<trkpt lat="37.356098300" lon="-122.091944900">
+  <ele>47.000000</ele>
+  <time>2009-05-07T21:53:45Z</time>
+  <name>TP23735</name>
+</trkpt>
+<trkpt lat="37.355688300" lon="-122.091385000">
+  <ele>50.000000</ele>
+  <time>2009-05-07T21:53:55Z</time>
+  <name>TP23736</name>
+</trkpt>
+<trkpt lat="37.355268300" lon="-122.090673300">
+  <ele>56.000000</ele>
+  <time>2009-05-07T21:54:05Z</time>
+  <name>TP23737</name>
+</trkpt>
+<trkpt lat="37.354926600" lon="-122.090141600">
+  <ele>57.000000</ele>
+  <time>2009-05-07T21:54:15Z</time>
+  <name>TP23738</name>
+</trkpt>
+<trkpt lat="37.354796600" lon="-122.089894900">
+  <ele>58.000000</ele>
+  <time>2009-05-07T21:54:20Z</time>
+  <name>TP23739</name>
+</trkpt>
+<trkpt lat="37.354595000" lon="-122.089665000">
+  <ele>61.000000</ele>
+  <time>2009-05-07T21:54:25Z</time>
+  <name>TP23740</name>
+</trkpt>
+<trkpt lat="37.354208300" lon="-122.089339900">
+  <ele>62.000000</ele>
+  <time>2009-05-07T21:54:30Z</time>
+  <name>TP23741</name>
+</trkpt>
+<trkpt lat="37.353833300" lon="-122.088803300">
+  <ele>66.000000</ele>
+  <time>2009-05-07T21:54:40Z</time>
+  <name>TP23742</name>
+</trkpt>
+<trkpt lat="37.353476600" lon="-122.088458300">
+  <ele>67.000000</ele>
+  <time>2009-05-07T21:54:45Z</time>
+  <name>TP23743</name>
+</trkpt>
+<trkpt lat="37.352996600" lon="-122.088043300">
+  <ele>69.000000</ele>
+  <time>2009-05-07T21:54:55Z</time>
+  <name>TP23744</name>
+</trkpt>
+<trkpt lat="37.352789900" lon="-122.087861600">
+  <ele>69.000000</ele>
+  <time>2009-05-07T21:55:00Z</time>
+  <name>TP23745</name>
+</trkpt>
+<trkpt lat="37.352734900" lon="-122.087619900">
+  <ele>68.000000</ele>
+  <time>2009-05-07T21:55:05Z</time>
+  <name>TP23746</name>
+</trkpt>
+<trkpt lat="37.353021600" lon="-122.087583300">
+  <ele>67.000000</ele>
+  <time>2009-05-07T21:55:10Z</time>
+  <name>TP23747</name>
+</trkpt>
+<trkpt lat="37.353246600" lon="-122.087710000">
+  <ele>67.000000</ele>
+  <time>2009-05-07T21:55:15Z</time>
+  <name>TP23748</name>
+</trkpt>
+<trkpt lat="37.353358300" lon="-122.087813300">
+  <ele>68.000000</ele>
+  <time>2009-05-07T21:55:20Z</time>
+  <name>TP23749</name>
+</trkpt>
+</trkseg>
+</trk>
+<trk>
+<trkseg>
+<trkpt lat="37.353838300" lon="-122.088766600">
+  <ele>79.000000</ele>
+  <time>2009-05-07T22:34:55Z</time>
+  <name>TP23750</name>
+</trkpt>
+<trkpt lat="37.353871600" lon="-122.088821600">
+  <ele>78.000000</ele>
+  <time>2009-05-07T22:34:56Z</time>
+  <name>TP23751</name>
+</trkpt>
+<trkpt lat="37.354241600" lon="-122.089321600">
+  <ele>73.000000</ele>
+  <time>2009-05-07T22:35:06Z</time>
+  <name>TP23752</name>
+</trkpt>
+<trkpt lat="37.354641600" lon="-122.090048300">
+  <ele>68.000000</ele>
+  <time>2009-05-07T22:35:16Z</time>
+  <name>TP23753</name>
+</trkpt>
+<trkpt lat="37.355296600" lon="-122.090743300">
+  <ele>76.000000</ele>
+  <time>2009-05-07T22:35:26Z</time>
+  <name>TP23754</name>
+</trkpt>
+<trkpt lat="37.355844900" lon="-122.091591600">
+  <ele>59.000000</ele>
+  <time>2009-05-07T22:35:36Z</time>
+  <name>TP23755</name>
+</trkpt>
+<trkpt lat="37.356468300" lon="-122.092418300">
+  <ele>62.000000</ele>
+  <time>2009-05-07T22:35:46Z</time>
+  <name>TP23756</name>
+</trkpt>
+<trkpt lat="37.357176600" lon="-122.093219900">
+  <ele>72.000000</ele>
+  <time>2009-05-07T22:35:56Z</time>
+  <name>TP23757</name>
+</trkpt>
+<trkpt lat="37.357825000" lon="-122.094021600">
+  <ele>72.000000</ele>
+  <time>2009-05-07T22:36:06Z</time>
+  <name>TP23758</name>
+</trkpt>
+<trkpt lat="37.358381600" lon="-122.094806600">
+  <ele>70.000000</ele>
+  <time>2009-05-07T22:36:16Z</time>
+  <name>TP23759</name>
+</trkpt>
+<trkpt lat="37.358940000" lon="-122.095494900">
+  <ele>68.000000</ele>
+  <time>2009-05-07T22:36:26Z</time>
+  <name>TP23760</name>
+</trkpt>
+<trkpt lat="37.359485000" lon="-122.096133300">
+  <ele>71.000000</ele>
+  <time>2009-05-07T22:36:36Z</time>
+  <name>TP23761</name>
+</trkpt>
+<trkpt lat="37.359891600" lon="-122.096616600">
+  <ele>66.000000</ele>
+  <time>2009-05-07T22:36:46Z</time>
+  <name>TP23762</name>
+</trkpt>
+<trkpt lat="37.359928300" lon="-122.096640000">
+  <ele>65.000000</ele>
+  <time>2009-05-07T22:37:48Z</time>
+  <name>TP23763</name>
+</trkpt>
+<trkpt lat="37.360008300" lon="-122.096701600">
+  <ele>65.000000</ele>
+  <time>2009-05-07T22:37:53Z</time>
+  <name>TP23764</name>
+</trkpt>
+<trkpt lat="37.360221600" lon="-122.096988300">
+  <ele>64.000000</ele>
+  <time>2009-05-07T22:37:58Z</time>
+  <name>TP23765</name>
+</trkpt>
+<trkpt lat="37.360833300" lon="-122.097798300">
+  <ele>61.000000</ele>
+  <time>2009-05-07T22:38:08Z</time>
+  <name>TP23766</name>
+</trkpt>
+<trkpt lat="37.361398300" lon="-122.098588300">
+  <ele>58.000000</ele>
+  <time>2009-05-07T22:38:18Z</time>
+  <name>TP23767</name>
+</trkpt>
+<trkpt lat="37.361943300" lon="-122.099288300">
+  <ele>59.000000</ele>
+  <time>2009-05-07T22:38:28Z</time>
+  <name>TP23768</name>
+</trkpt>
+<trkpt lat="37.362481600" lon="-122.099994900">
+  <ele>59.000000</ele>
+  <time>2009-05-07T22:38:38Z</time>
+  <name>TP23769</name>
+</trkpt>
+<trkpt lat="37.362996600" lon="-122.100716600">
+  <ele>56.000000</ele>
+  <time>2009-05-07T22:38:48Z</time>
+  <name>TP23770</name>
+</trkpt>
+<trkpt lat="37.363524900" lon="-122.101420000">
+  <ele>57.000000</ele>
+  <time>2009-05-07T22:38:58Z</time>
+  <name>TP23771</name>
+</trkpt>
+<trkpt lat="37.364099900" lon="-122.102091600">
+  <ele>61.000000</ele>
+  <time>2009-05-07T22:39:08Z</time>
+  <name>TP23772</name>
+</trkpt>
+<trkpt lat="37.364611600" lon="-122.102760000">
+  <ele>60.000000</ele>
+  <time>2009-05-07T22:39:18Z</time>
+  <name>TP23773</name>
+</trkpt>
+<trkpt lat="37.365068300" lon="-122.103341600">
+  <ele>62.000000</ele>
+  <time>2009-05-07T22:39:28Z</time>
+  <name>TP23774</name>
+</trkpt>
+<trkpt lat="37.365490000" lon="-122.103901600">
+  <ele>63.000000</ele>
+  <time>2009-05-07T22:39:38Z</time>
+  <name>TP23775</name>
+</trkpt>
+<trkpt lat="37.365893300" lon="-122.104401600">
+  <ele>66.000000</ele>
+  <time>2009-05-07T22:39:48Z</time>
+  <name>TP23776</name>
+</trkpt>
+<trkpt lat="37.366275000" lon="-122.104894900">
+  <ele>71.000000</ele>
+  <time>2009-05-07T22:39:58Z</time>
+  <name>TP23777</name>
+</trkpt>
+<trkpt lat="37.366653300" lon="-122.105395000">
+  <ele>72.000000</ele>
+  <time>2009-05-07T22:40:08Z</time>
+  <name>TP23778</name>
+</trkpt>
+<trkpt lat="37.367045000" lon="-122.105891600">
+  <ele>71.000000</ele>
+  <time>2009-05-07T22:40:18Z</time>
+  <name>TP23779</name>
+</trkpt>
+<trkpt lat="37.367439900" lon="-122.106413300">
+  <ele>72.000000</ele>
+  <time>2009-05-07T22:40:28Z</time>
+  <name>TP23780</name>
+</trkpt>
+<trkpt lat="37.367883300" lon="-122.106936600">
+  <ele>71.000000</ele>
+  <time>2009-05-07T22:40:38Z</time>
+  <name>TP23781</name>
+</trkpt>
+<trkpt lat="37.368268300" lon="-122.107488300">
+  <ele>71.000000</ele>
+  <time>2009-05-07T22:40:48Z</time>
+  <name>TP23782</name>
+</trkpt>
+<trkpt lat="37.368661600" lon="-122.108016600">
+  <ele>73.000000</ele>
+  <time>2009-05-07T22:40:58Z</time>
+  <name>TP23783</name>
+</trkpt>
+<trkpt lat="37.369068300" lon="-122.108528300">
+  <ele>70.000000</ele>
+  <time>2009-05-07T22:41:08Z</time>
+  <name>TP23784</name>
+</trkpt>
+<trkpt lat="37.369473300" lon="-122.109076600">
+  <ele>73.000000</ele>
+  <time>2009-05-07T22:41:18Z</time>
+  <name>TP23785</name>
+</trkpt>
+<trkpt lat="37.369881600" lon="-122.109613300">
+  <ele>71.000000</ele>
+  <time>2009-05-07T22:41:28Z</time>
+  <name>TP23786</name>
+</trkpt>
+<trkpt lat="37.370291600" lon="-122.110105000">
+  <ele>72.000000</ele>
+  <time>2009-05-07T22:41:38Z</time>
+  <name>TP23787</name>
+</trkpt>
+<trkpt lat="37.370676600" lon="-122.110596600">
+  <ele>76.000000</ele>
+  <time>2009-05-07T22:41:48Z</time>
+  <name>TP23788</name>
+</trkpt>
+<trkpt lat="37.370866600" lon="-122.110838300">
+  <ele>75.000000</ele>
+  <time>2009-05-07T22:41:53Z</time>
+  <name>TP23789</name>
+</trkpt>
+<trkpt lat="37.371314900" lon="-122.111393300">
+  <ele>75.000000</ele>
+  <time>2009-05-07T22:42:03Z</time>
+  <name>TP23790</name>
+</trkpt>
+<trkpt lat="37.371788300" lon="-122.112088300">
+  <ele>75.000000</ele>
+  <time>2009-05-07T22:42:13Z</time>
+  <name>TP23791</name>
+</trkpt>
+<trkpt lat="37.372339900" lon="-122.112838300">
+  <ele>72.000000</ele>
+  <time>2009-05-07T22:42:23Z</time>
+  <name>TP23792</name>
+</trkpt>
+<trkpt lat="37.372883300" lon="-122.113548300">
+  <ele>67.000000</ele>
+  <time>2009-05-07T22:42:33Z</time>
+  <name>TP23793</name>
+</trkpt>
+<trkpt lat="37.373334900" lon="-122.114151600">
+  <ele>68.000000</ele>
+  <time>2009-05-07T22:42:43Z</time>
+  <name>TP23794</name>
+</trkpt>
+<trkpt lat="37.373835000" lon="-122.114731600">
+  <ele>69.000000</ele>
+  <time>2009-05-07T22:42:53Z</time>
+  <name>TP23795</name>
+</trkpt>
+<trkpt lat="37.374396600" lon="-122.115361600">
+  <ele>65.000000</ele>
+  <time>2009-05-07T22:43:03Z</time>
+  <name>TP23796</name>
+</trkpt>
+<trkpt lat="37.374989900" lon="-122.115991600">
+  <ele>64.000000</ele>
+  <time>2009-05-07T22:43:13Z</time>
+  <name>TP23797</name>
+</trkpt>
+<trkpt lat="37.375591600" lon="-122.116589900">
+  <ele>63.000000</ele>
+  <time>2009-05-07T22:43:23Z</time>
+  <name>TP23798</name>
+</trkpt>
+<trkpt lat="37.376245000" lon="-122.117140000">
+  <ele>64.000000</ele>
+  <time>2009-05-07T22:43:33Z</time>
+  <name>TP23799</name>
+</trkpt>
+<trkpt lat="37.376896600" lon="-122.117648300">
+  <ele>64.000000</ele>
+  <time>2009-05-07T22:43:43Z</time>
+  <name>TP23800</name>
+</trkpt>
+<trkpt lat="37.377579900" lon="-122.118205000">
+  <ele>63.000000</ele>
+  <time>2009-05-07T22:43:53Z</time>
+  <name>TP23801</name>
+</trkpt>
+<trkpt lat="37.378300000" lon="-122.118726600">
+  <ele>64.000000</ele>
+  <time>2009-05-07T22:44:03Z</time>
+  <name>TP23802</name>
+</trkpt>
+<trkpt lat="37.378994900" lon="-122.119249900">
+  <ele>63.000000</ele>
+  <time>2009-05-07T22:44:13Z</time>
+  <name>TP23803</name>
+</trkpt>
+<trkpt lat="37.379703300" lon="-122.119813300">
+  <ele>61.000000</ele>
+  <time>2009-05-07T22:44:23Z</time>
+  <name>TP23804</name>
+</trkpt>
+<trkpt lat="37.380398300" lon="-122.120371600">
+  <ele>63.000000</ele>
+  <time>2009-05-07T22:44:33Z</time>
+  <name>TP23805</name>
+</trkpt>
+<trkpt lat="37.381048300" lon="-122.120860000">
+  <ele>66.000000</ele>
+  <time>2009-05-07T22:44:43Z</time>
+  <name>TP23806</name>
+</trkpt>
+<trkpt lat="37.381259900" lon="-122.121016600">
+  <ele>62.000000</ele>
+  <time>2009-05-07T22:44:53Z</time>
+  <name>TP23807</name>
+</trkpt>
+<trkpt lat="37.381321600" lon="-122.121051600">
+  <ele>59.000000</ele>
+  <time>2009-05-07T22:44:58Z</time>
+  <name>TP23808</name>
+</trkpt>
+<trkpt lat="37.381486600" lon="-122.121206600">
+  <ele>58.000000</ele>
+  <time>2009-05-07T22:45:03Z</time>
+  <name>TP23809</name>
+</trkpt>
+<trkpt lat="37.381764900" lon="-122.121413300">
+  <ele>56.000000</ele>
+  <time>2009-05-07T22:45:08Z</time>
+  <name>TP23810</name>
+</trkpt>
+<trkpt lat="37.382336600" lon="-122.121894900">
+  <ele>54.000000</ele>
+  <time>2009-05-07T22:45:18Z</time>
+  <name>TP23811</name>
+</trkpt>
+<trkpt lat="37.382948300" lon="-122.122374900">
+  <ele>59.000000</ele>
+  <time>2009-05-07T22:45:28Z</time>
+  <name>TP23812</name>
+</trkpt>
+<trkpt lat="37.383558300" lon="-122.122873300">
+  <ele>55.000000</ele>
+  <time>2009-05-07T22:45:38Z</time>
+  <name>TP23813</name>
+</trkpt>
+<trkpt lat="37.384206600" lon="-122.123378300">
+  <ele>55.000000</ele>
+  <time>2009-05-07T22:45:48Z</time>
+  <name>TP23814</name>
+</trkpt>
+<trkpt lat="37.384854900" lon="-122.123919900">
+  <ele>54.000000</ele>
+  <time>2009-05-07T22:45:58Z</time>
+  <name>TP23815</name>
+</trkpt>
+<trkpt lat="37.385565000" lon="-122.124448300">
+  <ele>52.000000</ele>
+  <time>2009-05-07T22:46:08Z</time>
+  <name>TP23816</name>
+</trkpt>
+<trkpt lat="37.386213300" lon="-122.124918300">
+  <ele>45.000000</ele>
+  <time>2009-05-07T22:46:18Z</time>
+  <name>TP23817</name>
+</trkpt>
+<trkpt lat="37.386840000" lon="-122.125431600">
+  <ele>45.000000</ele>
+  <time>2009-05-07T22:46:28Z</time>
+  <name>TP23818</name>
+</trkpt>
+<trkpt lat="37.387505000" lon="-122.125958300">
+  <ele>46.000000</ele>
+  <time>2009-05-07T22:46:38Z</time>
+  <name>TP23819</name>
+</trkpt>
+<trkpt lat="37.388201600" lon="-122.126494900">
+  <ele>45.000000</ele>
+  <time>2009-05-07T22:46:48Z</time>
+  <name>TP23820</name>
+</trkpt>
+<trkpt lat="37.388858300" lon="-122.126951600">
+  <ele>47.000000</ele>
+  <time>2009-05-07T22:46:58Z</time>
+  <name>TP23821</name>
+</trkpt>
+<trkpt lat="37.389606600" lon="-122.127423300">
+  <ele>51.000000</ele>
+  <time>2009-05-07T22:47:08Z</time>
+  <name>TP23822</name>
+</trkpt>
+<trkpt lat="37.390289900" lon="-122.127863300">
+  <ele>52.000000</ele>
+  <time>2009-05-07T22:47:18Z</time>
+  <name>TP23823</name>
+</trkpt>
+<trkpt lat="37.390991600" lon="-122.128333300">
+  <ele>51.000000</ele>
+  <time>2009-05-07T22:47:28Z</time>
+  <name>TP23824</name>
+</trkpt>
+<trkpt lat="37.391773300" lon="-122.128861600">
+  <ele>38.000000</ele>
+  <time>2009-05-07T22:47:38Z</time>
+  <name>TP23825</name>
+</trkpt>
+<trkpt lat="37.392499900" lon="-122.129319900">
+  <ele>39.000000</ele>
+  <time>2009-05-07T22:47:48Z</time>
+  <name>TP23826</name>
+</trkpt>
+<trkpt lat="37.393239900" lon="-122.129788300">
+  <ele>37.000000</ele>
+  <time>2009-05-07T22:47:58Z</time>
+  <name>TP23827</name>
+</trkpt>
+<trkpt lat="37.393930000" lon="-122.130276600">
+  <ele>36.000000</ele>
+  <time>2009-05-07T22:48:08Z</time>
+  <name>TP23828</name>
+</trkpt>
+<trkpt lat="37.394629900" lon="-122.130698300">
+  <ele>40.000000</ele>
+  <time>2009-05-07T22:48:18Z</time>
+  <name>TP23829</name>
+</trkpt>
+<trkpt lat="37.395334900" lon="-122.131191600">
+  <ele>38.000000</ele>
+  <time>2009-05-07T22:48:28Z</time>
+  <name>TP23830</name>
+</trkpt>
+<trkpt lat="37.396095000" lon="-122.131724900">
+  <ele>33.000000</ele>
+  <time>2009-05-07T22:48:38Z</time>
+  <name>TP23831</name>
+</trkpt>
+<trkpt lat="37.396839900" lon="-122.132283300">
+  <ele>30.000000</ele>
+  <time>2009-05-07T22:48:48Z</time>
+  <name>TP23832</name>
+</trkpt>
+<trkpt lat="37.397573300" lon="-122.132840000">
+  <ele>29.000000</ele>
+  <time>2009-05-07T22:48:58Z</time>
+  <name>TP23833</name>
+</trkpt>
+<trkpt lat="37.398248300" lon="-122.133456600">
+  <ele>30.000000</ele>
+  <time>2009-05-07T22:49:08Z</time>
+  <name>TP23834</name>
+</trkpt>
+<trkpt lat="37.398676600" lon="-122.134071600">
+  <ele>29.000000</ele>
+  <time>2009-05-07T22:49:18Z</time>
+  <name>TP23835</name>
+</trkpt>
+<trkpt lat="37.398828300" lon="-122.134315000">
+  <ele>29.000000</ele>
+  <time>2009-05-07T22:50:36Z</time>
+  <name>TP23836</name>
+</trkpt>
+<trkpt lat="37.398913300" lon="-122.134431600">
+  <ele>29.000000</ele>
+  <time>2009-05-07T22:50:41Z</time>
+  <name>TP23837</name>
+</trkpt>
+<trkpt lat="37.399041600" lon="-122.134716600">
+  <ele>29.000000</ele>
+  <time>2009-05-07T22:50:46Z</time>
+  <name>TP23838</name>
+</trkpt>
+<trkpt lat="37.399349900" lon="-122.135608300">
+  <ele>28.000000</ele>
+  <time>2009-05-07T22:50:56Z</time>
+  <name>TP23839</name>
+</trkpt>
+<trkpt lat="37.399714900" lon="-122.136551600">
+  <ele>28.000000</ele>
+  <time>2009-05-07T22:51:06Z</time>
+  <name>TP23840</name>
+</trkpt>
+<trkpt lat="37.400125000" lon="-122.137443300">
+  <ele>27.000000</ele>
+  <time>2009-05-07T22:51:16Z</time>
+  <name>TP23841</name>
+</trkpt>
+<trkpt lat="37.400616600" lon="-122.138251600">
+  <ele>28.000000</ele>
+  <time>2009-05-07T22:51:26Z</time>
+  <name>TP23842</name>
+</trkpt>
+<trkpt lat="37.401114900" lon="-122.139046600">
+  <ele>30.000000</ele>
+  <time>2009-05-07T22:51:36Z</time>
+  <name>TP23843</name>
+</trkpt>
+<trkpt lat="37.401556600" lon="-122.139805000">
+  <ele>28.000000</ele>
+  <time>2009-05-07T22:51:46Z</time>
+  <name>TP23844</name>
+</trkpt>
+<trkpt lat="37.401964900" lon="-122.140505000">
+  <ele>29.000000</ele>
+  <time>2009-05-07T22:51:56Z</time>
+  <name>TP23845</name>
+</trkpt>
+<trkpt lat="37.402373300" lon="-122.141136600">
+  <ele>30.000000</ele>
+  <time>2009-05-07T22:52:06Z</time>
+  <name>TP23846</name>
+</trkpt>
+<trkpt lat="37.402718300" lon="-122.141731600">
+  <ele>30.000000</ele>
+  <time>2009-05-07T22:52:16Z</time>
+  <name>TP23847</name>
+</trkpt>
+<trkpt lat="37.403046600" lon="-122.142358300">
+  <ele>29.000000</ele>
+  <time>2009-05-07T22:52:26Z</time>
+  <name>TP23848</name>
+</trkpt>
+<trkpt lat="37.403379900" lon="-122.143019900">
+  <ele>31.000000</ele>
+  <time>2009-05-07T22:52:36Z</time>
+  <name>TP23849</name>
+</trkpt>
+<trkpt lat="37.403699900" lon="-122.143709900">
+  <ele>31.000000</ele>
+  <time>2009-05-07T22:52:46Z</time>
+  <name>TP23850</name>
+</trkpt>
+<trkpt lat="37.404021600" lon="-122.144521600">
+  <ele>29.000000</ele>
+  <time>2009-05-07T22:52:56Z</time>
+  <name>TP23851</name>
+</trkpt>
+<trkpt lat="37.404328300" lon="-122.145449900">
+  <ele>27.000000</ele>
+  <time>2009-05-07T22:53:06Z</time>
+  <name>TP23852</name>
+</trkpt>
+<trkpt lat="37.404453300" lon="-122.145820000">
+  <ele>27.000000</ele>
+  <time>2009-05-07T22:53:16Z</time>
+  <name>TP23853</name>
+</trkpt>
+<trkpt lat="37.404531600" lon="-122.145988300">
+  <ele>27.000000</ele>
+  <time>2009-05-07T22:53:21Z</time>
+  <name>TP23854</name>
+</trkpt>
+<trkpt lat="37.404606600" lon="-122.146360000">
+  <ele>26.000000</ele>
+  <time>2009-05-07T22:53:26Z</time>
+  <name>TP23855</name>
+</trkpt>
+<trkpt lat="37.404764900" lon="-122.147089900">
+  <ele>28.000000</ele>
+  <time>2009-05-07T22:53:36Z</time>
+  <name>TP23856</name>
+</trkpt>
+<trkpt lat="37.404926600" lon="-122.147808300">
+  <ele>31.000000</ele>
+  <time>2009-05-07T22:53:46Z</time>
+  <name>TP23857</name>
+</trkpt>
+<trkpt lat="37.405031600" lon="-122.148479900">
+  <ele>32.000000</ele>
+  <time>2009-05-07T22:53:56Z</time>
+  <name>TP23858</name>
+</trkpt>
+<trkpt lat="37.405128300" lon="-122.149233300">
+  <ele>35.000000</ele>
+  <time>2009-05-07T22:54:06Z</time>
+  <name>TP23859</name>
+</trkpt>
+<trkpt lat="37.405226600" lon="-122.149891600">
+  <ele>34.000000</ele>
+  <time>2009-05-07T22:54:16Z</time>
+  <name>TP23860</name>
+</trkpt>
+<trkpt lat="37.405291600" lon="-122.150608300">
+  <ele>34.000000</ele>
+  <time>2009-05-07T22:54:26Z</time>
+  <name>TP23861</name>
+</trkpt>
+<trkpt lat="37.405314900" lon="-122.151333300">
+  <ele>29.000000</ele>
+  <time>2009-05-07T22:54:36Z</time>
+  <name>TP23862</name>
+</trkpt>
+<trkpt lat="37.405391600" lon="-122.151986600">
+  <ele>34.000000</ele>
+  <time>2009-05-07T22:54:46Z</time>
+  <name>TP23863</name>
+</trkpt>
+<trkpt lat="37.405411600" lon="-122.152301600">
+  <ele>35.000000</ele>
+  <time>2009-05-07T22:54:51Z</time>
+  <name>TP23864</name>
+</trkpt>
+<trkpt lat="37.405423300" lon="-122.152603300">
+  <ele>34.000000</ele>
+  <time>2009-05-07T22:54:56Z</time>
+  <name>TP23865</name>
+</trkpt>
+<trkpt lat="37.405436600" lon="-122.152890000">
+  <ele>36.000000</ele>
+  <time>2009-05-07T22:55:01Z</time>
+  <name>TP23866</name>
+</trkpt>
+<trkpt lat="37.405478300" lon="-122.153201600">
+  <ele>37.000000</ele>
+  <time>2009-05-07T22:55:06Z</time>
+  <name>TP23867</name>
+</trkpt>
+<trkpt lat="37.405509900" lon="-122.153516600">
+  <ele>38.000000</ele>
+  <time>2009-05-07T22:55:11Z</time>
+  <name>TP23868</name>
+</trkpt>
+<trkpt lat="37.405548300" lon="-122.153783300">
+  <ele>40.000000</ele>
+  <time>2009-05-07T22:55:16Z</time>
+  <name>TP23869</name>
+</trkpt>
+<trkpt lat="37.405593300" lon="-122.154076600">
+  <ele>45.000000</ele>
+  <time>2009-05-07T22:55:21Z</time>
+  <name>TP23870</name>
+</trkpt>
+<trkpt lat="37.405680000" lon="-122.154363300">
+  <ele>46.000000</ele>
+  <time>2009-05-07T22:55:26Z</time>
+  <name>TP23871</name>
+</trkpt>
+<trkpt lat="37.405785000" lon="-122.154608300">
+  <ele>46.000000</ele>
+  <time>2009-05-07T22:55:31Z</time>
+  <name>TP23872</name>
+</trkpt>
+<trkpt lat="37.405873300" lon="-122.154831600">
+  <ele>46.000000</ele>
+  <time>2009-05-07T22:55:36Z</time>
+  <name>TP23873</name>
+</trkpt>
+<trkpt lat="37.405948300" lon="-122.155063300">
+  <ele>47.000000</ele>
+  <time>2009-05-07T22:55:41Z</time>
+  <name>TP23874</name>
+</trkpt>
+<trkpt lat="37.406064900" lon="-122.155234900">
+  <ele>49.000000</ele>
+  <time>2009-05-07T22:55:46Z</time>
+  <name>TP23875</name>
+</trkpt>
+<trkpt lat="37.406174900" lon="-122.155423300">
+  <ele>50.000000</ele>
+  <time>2009-05-07T22:55:51Z</time>
+  <name>TP23876</name>
+</trkpt>
+<trkpt lat="37.406301600" lon="-122.155574900">
+  <ele>50.000000</ele>
+  <time>2009-05-07T22:55:56Z</time>
+  <name>TP23877</name>
+</trkpt>
+<trkpt lat="37.406368300" lon="-122.155631600">
+  <ele>51.000000</ele>
+  <time>2009-05-07T22:56:01Z</time>
+  <name>TP23878</name>
+</trkpt>
+<trkpt lat="37.406363300" lon="-122.155633300">
+  <ele>51.000000</ele>
+  <time>2009-05-07T22:57:39Z</time>
+  <name>TP23879</name>
+</trkpt>
+<trkpt lat="37.406471600" lon="-122.155755000">
+  <ele>51.000000</ele>
+  <time>2009-05-07T22:57:44Z</time>
+  <name>TP23880</name>
+</trkpt>
+<trkpt lat="37.406658300" lon="-122.156004900">
+  <ele>52.000000</ele>
+  <time>2009-05-07T22:57:49Z</time>
+  <name>TP23881</name>
+</trkpt>
+<trkpt lat="37.407060000" lon="-122.156616600">
+  <ele>52.000000</ele>
+  <time>2009-05-07T22:57:59Z</time>
+  <name>TP23882</name>
+</trkpt>
+<trkpt lat="37.407519900" lon="-122.157251600">
+  <ele>52.000000</ele>
+  <time>2009-05-07T22:58:09Z</time>
+  <name>TP23883</name>
+</trkpt>
+<trkpt lat="37.407950000" lon="-122.157834900">
+  <ele>52.000000</ele>
+  <time>2009-05-07T22:58:19Z</time>
+  <name>TP23884</name>
+</trkpt>
+<trkpt lat="37.408378300" lon="-122.158419900">
+  <ele>53.000000</ele>
+  <time>2009-05-07T22:58:29Z</time>
+  <name>TP23885</name>
+</trkpt>
+<trkpt lat="37.408805000" lon="-122.158998300">
+  <ele>53.000000</ele>
+  <time>2009-05-07T22:58:39Z</time>
+  <name>TP23886</name>
+</trkpt>
+<trkpt lat="37.409228300" lon="-122.159561600">
+  <ele>55.000000</ele>
+  <time>2009-05-07T22:58:49Z</time>
+  <name>TP23887</name>
+</trkpt>
+<trkpt lat="37.409594900" lon="-122.160063300">
+  <ele>56.000000</ele>
+  <time>2009-05-07T22:58:59Z</time>
+  <name>TP23888</name>
+</trkpt>
+<trkpt lat="37.409776600" lon="-122.160304900">
+  <ele>55.000000</ele>
+  <time>2009-05-07T22:59:04Z</time>
+  <name>TP23889</name>
+</trkpt>
+<trkpt lat="37.410128300" lon="-122.160784900">
+  <ele>53.000000</ele>
+  <time>2009-05-07T22:59:14Z</time>
+  <name>TP23890</name>
+</trkpt>
+<trkpt lat="37.410196600" lon="-122.160871600">
+  <ele>52.000000</ele>
+  <time>2009-05-07T22:59:19Z</time>
+  <name>TP23891</name>
+</trkpt>
+<trkpt lat="37.410200000" lon="-122.160884900">
+  <ele>51.000000</ele>
+  <time>2009-05-07T22:59:37Z</time>
+  <name>TP23892</name>
+</trkpt>
+<trkpt lat="37.410318300" lon="-122.161036600">
+  <ele>50.000000</ele>
+  <time>2009-05-07T22:59:42Z</time>
+  <name>TP23893</name>
+</trkpt>
+<trkpt lat="37.410506600" lon="-122.161306600">
+  <ele>50.000000</ele>
+  <time>2009-05-07T22:59:47Z</time>
+  <name>TP23894</name>
+</trkpt>
+<trkpt lat="37.410985000" lon="-122.161941600">
+  <ele>52.000000</ele>
+  <time>2009-05-07T22:59:57Z</time>
+  <name>TP23895</name>
+</trkpt>
+<trkpt lat="37.411448300" lon="-122.162594900">
+  <ele>54.000000</ele>
+  <time>2009-05-07T23:00:07Z</time>
+  <name>TP23896</name>
+</trkpt>
+<trkpt lat="37.411834900" lon="-122.163314900">
+  <ele>56.000000</ele>
+  <time>2009-05-07T23:00:17Z</time>
+  <name>TP23897</name>
+</trkpt>
+<trkpt lat="37.412219900" lon="-122.164036600">
+  <ele>63.000000</ele>
+  <time>2009-05-07T23:00:27Z</time>
+  <name>TP23898</name>
+</trkpt>
+<trkpt lat="37.412498300" lon="-122.164770000">
+  <ele>63.000000</ele>
+  <time>2009-05-07T23:00:37Z</time>
+  <name>TP23899</name>
+</trkpt>
+<trkpt lat="37.412731600" lon="-122.165446600">
+  <ele>62.000000</ele>
+  <time>2009-05-07T23:00:47Z</time>
+  <name>TP23900</name>
+</trkpt>
+<trkpt lat="37.412909900" lon="-122.166131600">
+  <ele>63.000000</ele>
+  <time>2009-05-07T23:00:57Z</time>
+  <name>TP23901</name>
+</trkpt>
+<trkpt lat="37.413003300" lon="-122.166846600">
+  <ele>61.000000</ele>
+  <time>2009-05-07T23:01:07Z</time>
+  <name>TP23902</name>
+</trkpt>
+<trkpt lat="37.413121600" lon="-122.167479900">
+  <ele>63.000000</ele>
+  <time>2009-05-07T23:01:17Z</time>
+  <name>TP23903</name>
+</trkpt>
+<trkpt lat="37.413216600" lon="-122.167733300">
+  <ele>63.000000</ele>
+  <time>2009-05-07T23:01:22Z</time>
+  <name>TP23904</name>
+</trkpt>
+<trkpt lat="37.413313300" lon="-122.168070000">
+  <ele>63.000000</ele>
+  <time>2009-05-07T23:01:27Z</time>
+  <name>TP23905</name>
+</trkpt>
+<trkpt lat="37.413418300" lon="-122.168356600">
+  <ele>64.000000</ele>
+  <time>2009-05-07T23:01:32Z</time>
+  <name>TP23906</name>
+</trkpt>
+<trkpt lat="37.413523300" lon="-122.168621600">
+  <ele>64.000000</ele>
+  <time>2009-05-07T23:01:37Z</time>
+  <name>TP23907</name>
+</trkpt>
+<trkpt lat="37.413643300" lon="-122.168876600">
+  <ele>65.000000</ele>
+  <time>2009-05-07T23:01:42Z</time>
+  <name>TP23908</name>
+</trkpt>
+<trkpt lat="37.413766600" lon="-122.169126600">
+  <ele>65.000000</ele>
+  <time>2009-05-07T23:01:47Z</time>
+  <name>TP23909</name>
+</trkpt>
+<trkpt lat="37.413900000" lon="-122.169336600">
+  <ele>63.000000</ele>
+  <time>2009-05-07T23:01:52Z</time>
+  <name>TP23910</name>
+</trkpt>
+<trkpt lat="37.414031600" lon="-122.169586600">
+  <ele>61.000000</ele>
+  <time>2009-05-07T23:01:57Z</time>
+  <name>TP23911</name>
+</trkpt>
+<trkpt lat="37.414231600" lon="-122.169909900">
+  <ele>60.000000</ele>
+  <time>2009-05-07T23:02:02Z</time>
+  <name>TP23912</name>
+</trkpt>
+<trkpt lat="37.414841600" lon="-122.170834900">
+  <ele>60.000000</ele>
+  <time>2009-05-07T23:02:12Z</time>
+  <name>TP23913</name>
+</trkpt>
+<trkpt lat="37.415456600" lon="-122.171689900">
+  <ele>56.000000</ele>
+  <time>2009-05-07T23:02:22Z</time>
+  <name>TP23914</name>
+</trkpt>
+<trkpt lat="37.415984900" lon="-122.172446600">
+  <ele>57.000000</ele>
+  <time>2009-05-07T23:02:32Z</time>
+  <name>TP23915</name>
+</trkpt>
+<trkpt lat="37.416450000" lon="-122.173119900">
+  <ele>59.000000</ele>
+  <time>2009-05-07T23:02:42Z</time>
+  <name>TP23916</name>
+</trkpt>
+<trkpt lat="37.416964900" lon="-122.173841600">
+  <ele>51.000000</ele>
+  <time>2009-05-07T23:02:52Z</time>
+  <name>TP23917</name>
+</trkpt>
+<trkpt lat="37.417583300" lon="-122.174569900">
+  <ele>48.000000</ele>
+  <time>2009-05-07T23:03:02Z</time>
+  <name>TP23918</name>
+</trkpt>
+<trkpt lat="37.418245000" lon="-122.175129900">
+  <ele>49.000000</ele>
+  <time>2009-05-07T23:03:12Z</time>
+  <name>TP23919</name>
+</trkpt>
+<trkpt lat="37.418983300" lon="-122.175571600">
+  <ele>47.000000</ele>
+  <time>2009-05-07T23:03:22Z</time>
+  <name>TP23920</name>
+</trkpt>
+<trkpt lat="37.419498300" lon="-122.175843300">
+  <ele>45.000000</ele>
+  <time>2009-05-07T23:03:32Z</time>
+  <name>TP23921</name>
+</trkpt>
+<trkpt lat="37.419718300" lon="-122.176006600">
+  <ele>45.000000</ele>
+  <time>2009-05-07T23:03:37Z</time>
+  <name>TP23922</name>
+</trkpt>
+<trkpt lat="37.420296600" lon="-122.176683300">
+  <ele>44.000000</ele>
+  <time>2009-05-07T23:03:47Z</time>
+  <name>TP23923</name>
+</trkpt>
+<trkpt lat="37.420676600" lon="-122.177553300">
+  <ele>45.000000</ele>
+  <time>2009-05-07T23:03:57Z</time>
+  <name>TP23924</name>
+</trkpt>
+<trkpt lat="37.420966600" lon="-122.178393300">
+  <ele>45.000000</ele>
+  <time>2009-05-07T23:04:07Z</time>
+  <name>TP23925</name>
+</trkpt>
+<trkpt lat="37.421223300" lon="-122.179210000">
+  <ele>45.000000</ele>
+  <time>2009-05-07T23:04:17Z</time>
+  <name>TP23926</name>
+</trkpt>
+<trkpt lat="37.421406600" lon="-122.180044900">
+  <ele>50.000000</ele>
+  <time>2009-05-07T23:04:27Z</time>
+  <name>TP23927</name>
+</trkpt>
+<trkpt lat="37.421591600" lon="-122.180878300">
+  <ele>51.000000</ele>
+  <time>2009-05-07T23:04:37Z</time>
+  <name>TP23928</name>
+</trkpt>
+<trkpt lat="37.421871600" lon="-122.181621600">
+  <ele>53.000000</ele>
+  <time>2009-05-07T23:04:47Z</time>
+  <name>TP23929</name>
+</trkpt>
+<trkpt lat="37.422214900" lon="-122.182034900">
+  <ele>53.000000</ele>
+  <time>2009-05-07T23:04:57Z</time>
+  <name>TP23930</name>
+</trkpt>
+<trkpt lat="37.422916600" lon="-122.182034900">
+  <ele>49.000000</ele>
+  <time>2009-05-07T23:05:07Z</time>
+  <name>TP23931</name>
+</trkpt>
+<trkpt lat="37.423750000" lon="-122.182231600">
+  <ele>43.000000</ele>
+  <time>2009-05-07T23:05:17Z</time>
+  <name>TP23932</name>
+</trkpt>
+<trkpt lat="37.424541600" lon="-122.182218300">
+  <ele>42.000000</ele>
+  <time>2009-05-07T23:05:27Z</time>
+  <name>TP23933</name>
+</trkpt>
+<trkpt lat="37.425280000" lon="-122.182039900">
+  <ele>42.000000</ele>
+  <time>2009-05-07T23:05:37Z</time>
+  <name>TP23934</name>
+</trkpt>
+<trkpt lat="37.425989900" lon="-122.181791600">
+  <ele>41.000000</ele>
+  <time>2009-05-07T23:05:47Z</time>
+  <name>TP23935</name>
+</trkpt>
+<trkpt lat="37.426649900" lon="-122.181443300">
+  <ele>44.000000</ele>
+  <time>2009-05-07T23:05:57Z</time>
+  <name>TP23936</name>
+</trkpt>
+<trkpt lat="37.427345000" lon="-122.181139900">
+  <ele>44.000000</ele>
+  <time>2009-05-07T23:06:07Z</time>
+  <name>TP23937</name>
+</trkpt>
+<trkpt lat="37.428098300" lon="-122.180893300">
+  <ele>40.000000</ele>
+  <time>2009-05-07T23:06:17Z</time>
+  <name>TP23938</name>
+</trkpt>
+<trkpt lat="37.428849900" lon="-122.180656600">
+  <ele>33.000000</ele>
+  <time>2009-05-07T23:06:27Z</time>
+  <name>TP23939</name>
+</trkpt>
+<trkpt lat="37.429663300" lon="-122.180393300">
+  <ele>30.000000</ele>
+  <time>2009-05-07T23:06:37Z</time>
+  <name>TP23940</name>
+</trkpt>
+<trkpt lat="37.430349900" lon="-122.179736600">
+  <ele>28.000000</ele>
+  <time>2009-05-07T23:06:47Z</time>
+  <name>TP23941</name>
+</trkpt>
+<trkpt lat="37.430774900" lon="-122.178808300">
+  <ele>29.000000</ele>
+  <time>2009-05-07T23:06:57Z</time>
+  <name>TP23942</name>
+</trkpt>
+<trkpt lat="37.430809900" lon="-122.177811600">
+  <ele>28.000000</ele>
+  <time>2009-05-07T23:07:07Z</time>
+  <name>TP23943</name>
+</trkpt>
+<trkpt lat="37.430646600" lon="-122.176823300">
+  <ele>28.000000</ele>
+  <time>2009-05-07T23:07:17Z</time>
+  <name>TP23944</name>
+</trkpt>
+<trkpt lat="37.430531600" lon="-122.175806600">
+  <ele>29.000000</ele>
+  <time>2009-05-07T23:07:27Z</time>
+  <name>TP23945</name>
+</trkpt>
+<trkpt lat="37.430310000" lon="-122.174819900">
+  <ele>24.000000</ele>
+  <time>2009-05-07T23:07:37Z</time>
+  <name>TP23946</name>
+</trkpt>
+<trkpt lat="37.430658300" lon="-122.173908300">
+  <ele>23.000000</ele>
+  <time>2009-05-07T23:07:47Z</time>
+  <name>TP23947</name>
+</trkpt>
+<trkpt lat="37.431516600" lon="-122.173563300">
+  <ele>21.000000</ele>
+  <time>2009-05-07T23:07:57Z</time>
+  <name>TP23948</name>
+</trkpt>
+<trkpt lat="37.432308300" lon="-122.173304900">
+  <ele>24.000000</ele>
+  <time>2009-05-07T23:08:07Z</time>
+  <name>TP23949</name>
+</trkpt>
+<trkpt lat="37.432499900" lon="-122.173244900">
+  <ele>24.000000</ele>
+  <time>2009-05-07T23:08:12Z</time>
+  <name>TP23950</name>
+</trkpt>
+<trkpt lat="37.432784900" lon="-122.173150000">
+  <ele>24.000000</ele>
+  <time>2009-05-07T23:08:17Z</time>
+  <name>TP23951</name>
+</trkpt>
+<trkpt lat="37.433513300" lon="-122.172851600">
+  <ele>26.000000</ele>
+  <time>2009-05-07T23:08:27Z</time>
+  <name>TP23952</name>
+</trkpt>
+<trkpt lat="37.434111600" lon="-122.172324900">
+  <ele>25.000000</ele>
+  <time>2009-05-07T23:08:37Z</time>
+  <name>TP23953</name>
+</trkpt>
+<trkpt lat="37.434319900" lon="-122.171313300">
+  <ele>25.000000</ele>
+  <time>2009-05-07T23:08:47Z</time>
+  <name>TP23954</name>
+</trkpt>
+<trkpt lat="37.434161600" lon="-122.170251600">
+  <ele>20.000000</ele>
+  <time>2009-05-07T23:08:57Z</time>
+  <name>TP23955</name>
+</trkpt>
+<trkpt lat="37.434303300" lon="-122.169184900">
+  <ele>19.000000</ele>
+  <time>2009-05-07T23:09:07Z</time>
+  <name>TP23956</name>
+</trkpt>
+<trkpt lat="37.434529900" lon="-122.168183300">
+  <ele>20.000000</ele>
+  <time>2009-05-07T23:09:17Z</time>
+  <name>TP23957</name>
+</trkpt>
+<trkpt lat="37.434535000" lon="-122.167851600">
+  <ele>20.000000</ele>
+  <time>2009-05-07T23:09:27Z</time>
+  <name>TP23958</name>
+</trkpt>
+<trkpt lat="37.434826600" lon="-122.167743300">
+  <ele>20.000000</ele>
+  <time>2009-05-07T23:09:32Z</time>
+  <name>TP23959</name>
+</trkpt>
+<trkpt lat="37.435480000" lon="-122.167536600">
+  <ele>21.000000</ele>
+  <time>2009-05-07T23:09:42Z</time>
+  <name>TP23960</name>
+</trkpt>
+<trkpt lat="37.436143300" lon="-122.167314900">
+  <ele>23.000000</ele>
+  <time>2009-05-07T23:09:52Z</time>
+  <name>TP23961</name>
+</trkpt>
+<trkpt lat="37.436851600" lon="-122.167089900">
+  <ele>24.000000</ele>
+  <time>2009-05-07T23:10:02Z</time>
+  <name>TP23962</name>
+</trkpt>
+<trkpt lat="37.437536600" lon="-122.166875000">
+  <ele>20.000000</ele>
+  <time>2009-05-07T23:10:12Z</time>
+  <name>TP23963</name>
+</trkpt>
+<trkpt lat="37.437851600" lon="-122.166725000">
+  <ele>20.000000</ele>
+  <time>2009-05-07T23:10:22Z</time>
+  <name>TP23964</name>
+</trkpt>
+<trkpt lat="37.437909900" lon="-122.166663300">
+  <ele>19.000000</ele>
+  <time>2009-05-07T23:10:27Z</time>
+  <name>TP23965</name>
+</trkpt>
+<trkpt lat="37.437861600" lon="-122.166659900">
+  <ele>17.000000</ele>
+  <time>2009-05-07T23:10:32Z</time>
+  <name>TP23966</name>
+</trkpt>
+<trkpt lat="37.437838300" lon="-122.166736600">
+  <ele>18.000000</ele>
+  <time>2009-05-07T23:10:37Z</time>
+  <name>TP23967</name>
+</trkpt>
+<trkpt lat="37.437946600" lon="-122.166725000">
+  <ele>18.000000</ele>
+  <time>2009-05-07T23:10:42Z</time>
+  <name>TP23968</name>
+</trkpt>
+<trkpt lat="37.438178300" lon="-122.166536600">
+  <ele>18.000000</ele>
+  <time>2009-05-07T23:10:47Z</time>
+  <name>TP23969</name>
+</trkpt>
+<trkpt lat="37.438834900" lon="-122.166333300">
+  <ele>16.000000</ele>
+  <time>2009-05-07T23:10:57Z</time>
+  <name>TP23970</name>
+</trkpt>
+<trkpt lat="37.439536600" lon="-122.166081600">
+  <ele>18.000000</ele>
+  <time>2009-05-07T23:11:07Z</time>
+  <name>TP23971</name>
+</trkpt>
+<trkpt lat="37.440245000" lon="-122.165878300">
+  <ele>16.000000</ele>
+  <time>2009-05-07T23:11:17Z</time>
+  <name>TP23972</name>
+</trkpt>
+<trkpt lat="37.440905000" lon="-122.165658300">
+  <ele>17.000000</ele>
+  <time>2009-05-07T23:11:27Z</time>
+  <name>TP23973</name>
+</trkpt>
+<trkpt lat="37.441424900" lon="-122.165393300">
+  <ele>19.000000</ele>
+  <time>2009-05-07T23:11:37Z</time>
+  <name>TP23974</name>
+</trkpt>
+<trkpt lat="37.441524900" lon="-122.165411600">
+  <ele>16.000000</ele>
+  <time>2009-05-07T23:11:42Z</time>
+  <name>TP23975</name>
+</trkpt>
+<trkpt lat="37.441688300" lon="-122.165324900">
+  <ele>17.000000</ele>
+  <time>2009-05-07T23:11:47Z</time>
+  <name>TP23976</name>
+</trkpt>
+<trkpt lat="37.441913300" lon="-122.165200000">
+  <ele>18.000000</ele>
+  <time>2009-05-07T23:11:52Z</time>
+  <name>TP23977</name>
+</trkpt>
+<trkpt lat="37.442099900" lon="-122.165086600">
+  <ele>18.000000</ele>
+  <time>2009-05-07T23:11:57Z</time>
+  <name>TP23978</name>
+</trkpt>
+<trkpt lat="37.442268300" lon="-122.164934900">
+  <ele>18.000000</ele>
+  <time>2009-05-07T23:12:02Z</time>
+  <name>TP23979</name>
+</trkpt>
+<trkpt lat="37.442486600" lon="-122.164846600">
+  <ele>17.000000</ele>
+  <time>2009-05-07T23:12:07Z</time>
+  <name>TP23980</name>
+</trkpt>
+<trkpt lat="37.442708300" lon="-122.164663300">
+  <ele>15.000000</ele>
+  <time>2009-05-07T23:12:12Z</time>
+  <name>TP23981</name>
+</trkpt>
+<trkpt lat="37.443408300" lon="-122.164041600">
+  <ele>25.000000</ele>
+  <time>2009-05-07T23:12:30Z</time>
+  <name>TP23982</name>
+</trkpt>
+<trkpt lat="37.443589900" lon="-122.163798300">
+  <ele>19.000000</ele>
+  <time>2009-05-07T23:12:35Z</time>
+  <name>TP23983</name>
+</trkpt>
+<trkpt lat="37.443796600" lon="-122.163604900">
+  <ele>23.000000</ele>
+  <time>2009-05-07T23:12:40Z</time>
+  <name>TP23984</name>
+</trkpt>
+<trkpt lat="37.444023300" lon="-122.163388300">
+  <ele>22.000000</ele>
+  <time>2009-05-07T23:12:45Z</time>
+  <name>TP23985</name>
+</trkpt>
+<trkpt lat="37.443728300" lon="-122.162776600">
+  <ele>22.000000</ele>
+  <time>2009-05-07T23:12:55Z</time>
+  <name>TP23986</name>
+</trkpt>
+<trkpt lat="37.443406600" lon="-122.162216600">
+  <ele>18.000000</ele>
+  <time>2009-05-07T23:13:05Z</time>
+  <name>TP23987</name>
+</trkpt>
+<trkpt lat="37.443408300" lon="-122.162181600">
+  <ele>17.000000</ele>
+  <time>2009-05-07T23:13:11Z</time>
+  <name>TP23988</name>
+</trkpt>
+<trkpt lat="37.443393300" lon="-122.162153300">
+  <ele>18.000000</ele>
+  <time>2009-05-07T23:13:16Z</time>
+  <name>TP23989</name>
+</trkpt>
+<trkpt lat="37.443263300" lon="-122.161995000">
+  <ele>17.000000</ele>
+  <time>2009-05-07T23:13:21Z</time>
+  <name>TP23990</name>
+</trkpt>
+<trkpt lat="37.443096600" lon="-122.161751600">
+  <ele>16.000000</ele>
+  <time>2009-05-07T23:13:26Z</time>
+  <name>TP23991</name>
+</trkpt>
+<trkpt lat="37.442694900" lon="-122.161133300">
+  <ele>13.000000</ele>
+  <time>2009-05-07T23:13:36Z</time>
+  <name>TP23992</name>
+</trkpt>
+<trkpt lat="37.442988300" lon="-122.160438300">
+  <ele>12.000000</ele>
+  <time>2009-05-07T23:13:47Z</time>
+  <name>TP23993</name>
+</trkpt>
+<trkpt lat="37.442846600" lon="-122.159921600">
+  <ele>19.000000</ele>
+  <time>2009-05-07T23:13:57Z</time>
+  <name>TP23994</name>
+</trkpt>
+<trkpt lat="37.442720000" lon="-122.159773300">
+  <ele>22.000000</ele>
+  <time>2009-05-07T23:14:10Z</time>
+  <name>TP23995</name>
+</trkpt>
+<trkpt lat="37.442670000" lon="-122.159833300">
+  <ele>16.000000</ele>
+  <time>2009-05-07T23:14:15Z</time>
+  <name>TP23996</name>
+</trkpt>
+<trkpt lat="37.442649900" lon="-122.159848300">
+  <ele>16.000000</ele>
+  <time>2009-05-07T23:15:08Z</time>
+  <name>TP23997</name>
+</trkpt>
+<trkpt lat="37.442629900" lon="-122.159843300">
+  <ele>15.000000</ele>
+  <time>2009-05-07T23:15:13Z</time>
+  <name>TP23998</name>
+</trkpt>
+<trkpt lat="37.442664900" lon="-122.159798300">
+  <ele>19.000000</ele>
+  <time>2009-05-07T23:15:18Z</time>
+  <name>TP23999</name>
+</trkpt>
+<trkpt lat="37.442714900" lon="-122.159708300">
+  <ele>19.000000</ele>
+  <time>2009-05-07T23:15:23Z</time>
+  <name>TP24000</name>
+</trkpt>
+<trkpt lat="37.442676600" lon="-122.159641600">
+  <ele>18.000000</ele>
+  <time>2009-05-07T23:15:28Z</time>
+  <name>TP24001</name>
+</trkpt>
+<trkpt lat="37.442576600" lon="-122.159486600">
+  <ele>17.000000</ele>
+  <time>2009-05-07T23:15:33Z</time>
+  <name>TP24002</name>
+</trkpt>
+<trkpt lat="37.442446600" lon="-122.159278300">
+  <ele>17.000000</ele>
+  <time>2009-05-07T23:15:38Z</time>
+  <name>TP24003</name>
+</trkpt>
+<trkpt lat="37.442355000" lon="-122.159083300">
+  <ele>16.000000</ele>
+  <time>2009-05-07T23:15:43Z</time>
+  <name>TP24004</name>
+</trkpt>
+<trkpt lat="37.442213300" lon="-122.158880000">
+  <ele>16.000000</ele>
+  <time>2009-05-07T23:15:48Z</time>
+  <name>TP24005</name>
+</trkpt>
+<trkpt lat="37.442038300" lon="-122.158578300">
+  <ele>16.000000</ele>
+  <time>2009-05-07T23:15:53Z</time>
+  <name>TP24006</name>
+</trkpt>
+<trkpt lat="37.441683300" lon="-122.158024900">
+  <ele>13.000000</ele>
+  <time>2009-05-07T23:16:03Z</time>
+  <name>TP24007</name>
+</trkpt>
+<trkpt lat="37.441653300" lon="-122.157879900">
+  <ele>13.000000</ele>
+  <time>2009-05-07T23:16:08Z</time>
+  <name>TP24008</name>
+</trkpt>
+<trkpt lat="37.441736600" lon="-122.157671600">
+  <ele>13.000000</ele>
+  <time>2009-05-07T23:16:13Z</time>
+  <name>TP24009</name>
+</trkpt>
+<trkpt lat="37.441983300" lon="-122.157451600">
+  <ele>13.000000</ele>
+  <time>2009-05-07T23:16:18Z</time>
+  <name>TP24010</name>
+</trkpt>
+<trkpt lat="37.442488300" lon="-122.156916600">
+  <ele>15.000000</ele>
+  <time>2009-05-07T23:16:28Z</time>
+  <name>TP24011</name>
+</trkpt>
+<trkpt lat="37.442983300" lon="-122.156443300">
+  <ele>19.000000</ele>
+  <time>2009-05-07T23:16:38Z</time>
+  <name>TP24012</name>
+</trkpt>
+<trkpt lat="37.443518300" lon="-122.155896600">
+  <ele>17.000000</ele>
+  <time>2009-05-07T23:16:48Z</time>
+  <name>TP24013</name>
+</trkpt>
+<trkpt lat="37.443879900" lon="-122.155508300">
+  <ele>19.000000</ele>
+  <time>2009-05-07T23:16:58Z</time>
+  <name>TP24014</name>
+</trkpt>
+<trkpt lat="37.444068300" lon="-122.155304900">
+  <ele>18.000000</ele>
+  <time>2009-05-07T23:17:03Z</time>
+  <name>TP24015</name>
+</trkpt>
+<trkpt lat="37.444634900" lon="-122.154759900">
+  <ele>16.000000</ele>
+  <time>2009-05-07T23:17:13Z</time>
+  <name>TP24016</name>
+</trkpt>
+<trkpt lat="37.445183300" lon="-122.154225000">
+  <ele>11.000000</ele>
+  <time>2009-05-07T23:17:23Z</time>
+  <name>TP24017</name>
+</trkpt>
+<trkpt lat="37.445730000" lon="-122.153691600">
+  <ele>11.000000</ele>
+  <time>2009-05-07T23:17:33Z</time>
+  <name>TP24018</name>
+</trkpt>
+<trkpt lat="37.446246600" lon="-122.153131600">
+  <ele>14.000000</ele>
+  <time>2009-05-07T23:17:43Z</time>
+  <name>TP24019</name>
+</trkpt>
+<trkpt lat="37.446811600" lon="-122.152603300">
+  <ele>15.000000</ele>
+  <time>2009-05-07T23:17:53Z</time>
+  <name>TP24020</name>
+</trkpt>
+<trkpt lat="37.447388300" lon="-122.152064900">
+  <ele>11.000000</ele>
+  <time>2009-05-07T23:18:03Z</time>
+  <name>TP24021</name>
+</trkpt>
+<trkpt lat="37.447496600" lon="-122.151654900">
+  <ele>17.000000</ele>
+  <time>2009-05-07T23:18:13Z</time>
+  <name>TP24022</name>
+</trkpt>
+<trkpt lat="37.447346600" lon="-122.151404900">
+  <ele>19.000000</ele>
+  <time>2009-05-07T23:18:18Z</time>
+  <name>TP24023</name>
+</trkpt>
+<trkpt lat="37.447098300" lon="-122.151093300">
+  <ele>18.000000</ele>
+  <time>2009-05-07T23:18:23Z</time>
+  <name>TP24024</name>
+</trkpt>
+<trkpt lat="37.446663300" lon="-122.150401600">
+  <ele>15.000000</ele>
+  <time>2009-05-07T23:18:33Z</time>
+  <name>TP24025</name>
+</trkpt>
+<trkpt lat="37.446248300" lon="-122.149708300">
+  <ele>13.000000</ele>
+  <time>2009-05-07T23:18:43Z</time>
+  <name>TP24026</name>
+</trkpt>
+<trkpt lat="37.445863300" lon="-122.149015000">
+  <ele>8.000000</ele>
+  <time>2009-05-07T23:18:53Z</time>
+  <name>TP24027</name>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>
