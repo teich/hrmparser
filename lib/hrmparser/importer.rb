@@ -1,6 +1,7 @@
 require 'importer/garmin'
 require 'importer/polar'
 require 'importer/suunto'
+require 'importer/gpx'
 
 module Importer
 	def Importer.file_type(name)
@@ -11,6 +12,8 @@ module Importer
 			return "POLAR_HRM"
 		when /\.sdf$/i
 			return "SUUNTO"
+		when /\.gpx$/i
+			return "GPX"
 		end
 	end
 

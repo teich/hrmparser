@@ -1,3 +1,8 @@
+0.4.1 - May 9th, 2009
+	Added GPX support.  
+	NOTE: all workouts do NOT account for stopped time.  
+		duration is simply last time - first time.  Will be fixed in future version.
+		
 0.4.0 - May 8th, 2009
 	Added initial support for Suunto T6.  Just grabs HRs for now.
 
