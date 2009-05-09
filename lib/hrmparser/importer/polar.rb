@@ -10,8 +10,6 @@ module Importer
     
     def restore
       workout = HRMParser::Workout.new(:duration => 0)
-      #filehandle = Importer.read_in_file(@file_name)
-      #@data = @file.read
       
       params = parse_params
 

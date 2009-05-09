@@ -78,7 +78,7 @@ module HRMParser
 				workout.altitude_gain.should be_nil
 				workout.trackpoints.should == {}
 			end
-
+		
 			# Parsing the full XML is just slow.  Commenting out for now.
 			it "gets workout level settings for outdoor workout" do
 				filename = "spec/samples/outdoor-garmin-405.TCX"
@@ -90,7 +90,7 @@ module HRMParser
 				workout.average_speed.should be_close(1.5, 0.2)
 				workout.altitude_gain.should be_close(583, 1.0)
 			end
-
+		
 			it "gets workout level settings for weird distance workout" do
 				filename = "spec/samples/garmin-405-dies-distance.TCX"
 				data = File.read(filename)
@@ -101,7 +101,7 @@ module HRMParser
 				workout.average_speed.should be_close(6.7, 0.2)
 				workout.altitude_gain.should be_close(40, 1.0)
 			end
-
+		
 			it "doesn't have any 0 in latitude" do
 				filename = "spec/samples/garmin-405-with-0-0.TCX"
 				data = File.read(filename)
@@ -111,7 +111,7 @@ module HRMParser
 				workout.trackpoints.map {|tp| tp.lat.should_not == "undefined"}
 			end
 		end
-
+		
 		context "Parse polar RS200 file" do
 			it "finds the duration and time" do
 				filename ="spec/samples/polarRS200.hrm"
@@ -137,6 +137,25 @@ module HRMParser
 				workout = importer.restore
 				workout.trackpoints.each {|tp| tp.hr.should < 220 && tp.hr.should > 30}
 				workout.average_hr.should be_close(115, 1)
+				workout.average_speed.should == nil
+			end
+		end
+		
+		context "Parse a Suunto T6C RR file" do
+			it "finds the duration and time" do
+				filename = "spec/samples/suunto-t6-RR-stops.sdf"
+				data = File.read(filename)
+				importer = Importer::Suunto.new(:data => data, :time_zone => "-0700")
+				workout = importer.restore
+				workout.duration.should be_close(4781,1)
+				workout.time.should == Time.parse("Thu May 07 14:16:07 -0700 2009")
+			end
+			it "calculates the average HR" do
+				filename = "spec/samples/suunto-t6-RR-stops.sdf"
+				data = File.read(filename)
+				importer = Importer::Suunto.new(:data => data, :time_zone => "-0700")
+				workout = importer.restore
+				workout.average_hr.should be_close(152,1)
 				workout.average_speed.should == nil
 			end
 		end
