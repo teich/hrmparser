@@ -58,7 +58,7 @@ module HRMParser
 				data = File.read(filename)
 				importer = Importer::GPX.new(:data => data)
 				workout = importer.restore
-				workout.time.should == Time.parse("Fri May 08 00:58:35 UTC 2009")
+				workout.time.should == Time.parse("Thu May 07 21:32:31 UTC 2009")
 				
 				# Duration is actualy less, but we don't account for stopped time right now
 				workout.duration.should be_close(6382,1)

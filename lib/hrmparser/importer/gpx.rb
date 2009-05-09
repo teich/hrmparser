@@ -7,7 +7,9 @@ module Importer
 		def restore
 			workout = HRMParser::Workout.new(:duration => 0)
 			@xml = Hpricot::XML(@data)
-			ttime = (@xml/:time).first.innerHTML
+			
+			# Set the time based on first trackpoint.  Seen an instance where the gpx begining time is wrong
+			ttime = (@xml/:trk/:trkpt/:time).first.innerHTML
 			workout.time = Time.parse(ttime)
 
 			trackpoints = []
