@@ -11,8 +11,14 @@ module Importer
 			workout = HRMParser::Workout.new(:duration => 0)
 	      
 			params = parse_params("HEADER")
-			dt = DateTime.strptime(params["STARTTIME"] + " " + @time_zone, "%d.%m.%Y %H:%M.%S %Z")
-			workout.time = Time.parse(dt.to_s)
+			
+			# Using DateTime because 1.8 at leas doesn't have a Time.strptime
+			# And european ordeirng consfuses time.parse
+			# TODO: must be some better way
+			dt = DateTime.strptime(params["STARTTIME"], "%d.%m.%Y %H:%M.%S")
+			time_for_parse = dt.strftime("%b %d %H:%M:%S @time_zone %Y")
+
+			workout.time = Time.parse(time_for_parse)
 			workout.duration = params["DURATION"].to_f
 			
 			workout.trackpoints = get_trackpoints

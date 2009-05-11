@@ -47,7 +47,7 @@ module HRMParser
 				type.should == nil
 			end
 			it "identify file as polar" do
-				type = Importer.file_type("spec/samples/polarRS200.hrm")
+				type = Importer.file_type("spec/samples/polarRS400.hrm")
 				type.should == "POLAR_HRM"
 			end
 		end
@@ -133,19 +133,19 @@ module HRMParser
 				end
 			end
 			
-			context "Parse polar RS200 file" do
+			context "Parse polar RS400 file" do
 				it "finds the duration and time" do
-					filename ="spec/samples/polarRS200.hrm"
+					filename ="spec/samples/polarRS400.hrm"
 					data = File.read(filename)
-					importer = Importer::Polar.new(:data => data, :time_zone => "UTC")
+					importer = Importer::Polar.new(:data => data, :time_zone => "Pacific Time (US & Canada)")
 					workout = importer.restore
 					workout.duration.should be_close(3569,1)
-					workout.time.should == Time.parse("Thu Apr 16 12:01:55 UTC 2009")
+					workout.time.should == Time.parse("Thu Apr 16 12:01:55 -0700 2009")
 				end
 				it "calculates the average heartrate" do
-					filename ="spec/samples/polarRS200.hrm"          
+					filename ="spec/samples/polarRS400.hrm"          
 					data = File.read(filename)
-					importer = Importer::Polar.new(:data => data, :time_zone => "UTC")
+					importer = Importer::Polar.new(:data => data, :time_zone => "Pacific Time (US & Canada)")
 					workout = importer.restore
 					workout.average_hr.should be_close(145, 1)
 				end
@@ -154,7 +154,7 @@ module HRMParser
 				it "calculates the heart rate from RR" do
 					filename ="spec/samples/polarRS800-RR.hrm"         
 					data = File.read(filename)
-					importer = Importer::Polar.new(:data => data, :time_zone => "UTC")
+					importer = Importer::Polar.new(:data => data, :time_zone => "Pacific Time (US & Canada)")
 					workout = importer.restore
 					workout.trackpoints.each {|tp| tp.hr.should < 220 && tp.hr.should > 30}
 					workout.average_hr.should be_close(115, 1)
@@ -166,7 +166,7 @@ module HRMParser
 				it "finds the duration and time" do
 					filename = "spec/samples/suunto-t6-RR-stops.sdf"
 					data = File.read(filename)
-					importer = Importer::Suunto.new(:data => data, :time_zone => "-0700")
+					importer = Importer::Suunto.new(:data => data, :time_zone => "Pacific Time (US & Canada)")
 					workout = importer.restore
 					workout.duration.should be_close(4781,1)
 					workout.time.should == Time.parse("Thu May 07 14:16:07 -0700 2009")
@@ -174,7 +174,7 @@ module HRMParser
 				it "calculates the average HR" do
 					filename = "spec/samples/suunto-t6-RR-stops.sdf"
 					data = File.read(filename)
-					importer = Importer::Suunto.new(:data => data, :time_zone => "-0700")
+					importer = Importer::Suunto.new(:data => data, :time_zone => "Pacific Time (US & Canada)")
 					workout = importer.restore
 					workout.average_hr.should be_close(152,1)
 					workout.average_speed.should == nil
