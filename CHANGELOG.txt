@@ -1,3 +1,6 @@
+0.4.5 - May 11th, 2009
+	Added support for Suunto full variables including speed, distance, etc.
+	
 0.4.4 - May 10th, 2009
 	Fixed time-zone in trackpoints now
 	
