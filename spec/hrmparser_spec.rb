@@ -180,6 +180,18 @@ module HRMParser
 					workout.average_speed.should == nil
 					workout.altitude_gain.should be_close(115, 1)
 				end
+				it "calculates the speed and distance" do
+					filename = "spec/samples/suunto-with-cadence-speed-distance.sdf"
+					data = File.read(filename)
+					importer = Importer::Suunto.new(:data => data, :time_zone => "Pacific Time (US & Canada)")
+					workout = importer.restore
+					workout.average_hr.should be_close(131,1)
+					workout.average_speed.should be_close(9.2,0.2)
+					workout.altitude_gain.should be_close(68.3, 0.2)
+					workout.distance.should == 124597
+				end
+				
+				
 			end
 	end
 end

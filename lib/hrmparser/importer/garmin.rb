@@ -68,14 +68,7 @@ module Importer
 				workout.calc_average_speed! 
 				workout.calc_altitude_gain!
 				workout.calc_average_hr!
-				trackpoints.reverse_each do |tp|
-					if !tp.distance.nil?
-						workout.distance = tp.distance
-						break
-					end
-				end
-				# workout.distance = trackpoints.last.distance if !trackpoints.last.nil? && !trackpoints.last.distance.nil?
-
+				workout.set_distance_from_trackpoints!
 			end
 
 			return workout

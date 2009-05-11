@@ -26,6 +26,7 @@ module Importer
 			workout.calc_average_hr!
 			workout.calc_altitude_gain!
 			workout.calc_average_speed! 
+			workout.set_distance_from_trackpoints!
 
 			return workout
 		end

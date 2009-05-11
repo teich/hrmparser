@@ -53,5 +53,14 @@ module HRMParser
 		def altitudes
 			@trackpoints.map { |tp| tp.altitude }
 		end 
+		
+		def set_distance_from_trackpoints!
+			@trackpoints.reverse_each do |tp|
+				if !tp.distance.nil?
+					self.distance = tp.distance
+					break
+				end
+			end	
+		end
 	end
 end
