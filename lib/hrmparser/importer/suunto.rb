@@ -24,6 +24,8 @@ module Importer
 			workout.trackpoints = get_trackpoints
 			
 			workout.calc_average_hr!
+			workout.calc_altitude_gain!
+	        
 			return workout
 		end
 		
@@ -72,9 +74,15 @@ module Importer
 				
 				trackpoint = HRMParser::TrackPoint.new
 				
-				dt = DateTime.strptime(date + " " + time + " " + @time_zone, "%d.%m.%Y %H:%M.%S %Z")
-		        trackpoint.time = Time.parse(dt.to_s)
+				#dt = DateTime.strptime(date + " " + time + " " + @time_zone, "%d.%m.%Y %H:%M.%S %Z")
+
+				dt = DateTime.strptime(date + " " + time, "%d.%m.%Y %H:%M.%S")
+				time_for_parse = dt.strftime("%b %d %H:%M:%S @time_zone %Y")
+		        trackpoint.time = Time.parse(time_for_parse)
 				trackpoint.hr = hr.to_i
+				trackpoint.temp = temp.to_i
+				trackpoint.kcal = kcal.to_i
+				trackpoint.altitude = altitude.to_i
 				
 				trackpoints << trackpoint
 			end

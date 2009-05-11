@@ -171,13 +171,14 @@ module HRMParser
 					workout.duration.should be_close(4781,1)
 					workout.time.should == Time.parse("Thu May 07 14:16:07 -0700 2009")
 				end
-				it "calculates the average HR" do
+				it "calculates the average HR & altitude" do
 					filename = "spec/samples/suunto-t6-RR-stops.sdf"
 					data = File.read(filename)
 					importer = Importer::Suunto.new(:data => data, :time_zone => "Pacific Time (US & Canada)")
 					workout = importer.restore
 					workout.average_hr.should be_close(152,1)
 					workout.average_speed.should == nil
+					workout.altitude_gain.should be_close(115, 1)
 				end
 			end
 	end

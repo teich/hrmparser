@@ -3,7 +3,7 @@ module HRMParser
 		
 		RAD_PER_DEG = 0.017453293  #  PI/180  
 		
-		attr_accessor :lat, :lng, :altitude, :speed, :hr, :distance, :time, :cadence
+		attr_accessor :lat, :lng, :altitude, :speed, :hr, :distance, :time, :cadence, :temp, :kcal
 		def initialize(opts = {:lat => nil, :lng => nil, :altitude => nil, :speed => nil, :hr => nil, :distance => nil, :cadence => nil, :time => Time.now})
 			@lat = opts[:lat]
 			@lng = opts[:lng]
