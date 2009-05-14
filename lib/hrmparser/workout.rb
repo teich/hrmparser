@@ -27,7 +27,7 @@ module HRMParser
 
 		def calc_altitude_gain!
 			gain = 0
-			smoothed_altitude = altitudes.smoothed(10)
+			smoothed_altitude = altitudes.compact.smoothed(10)
 			start = smoothed_altitude.first
 			smoothed_altitude.each do |alt|
 				diff = alt - start

@@ -79,9 +79,17 @@ module Importer
 				points_f = %w[epoc kcal speed]
 				points_i = %w[altitude hr respiration ventilation vo2 distance cadence temp]
 
-				points_f.each { |p| trackpoint.send("#{p}=".to_sym, (eval p).to_f) }
-				points_i.each { |p| trackpoint.send("#{p}=".to_sym, (eval p).to_i) }
-
+				points_f.each do |p|
+					value = (eval p).to_f
+					value = nil if value == 0.0
+					trackpoint.send("#{p}=".to_sym, value)
+				end
+				
+				points_i.each do |p| 
+					value = (eval p).to_i
+					value = nil if value == 0
+					trackpoint.send("#{p}=".to_sym, value)
+				end
 				dt = DateTime.strptime(date + " " + time, "%d.%m.%Y %H:%M.%S")
 				time_for_parse = dt.strftime("%b %d %H:%M:%S @time_zone %Y")
 				trackpoint.time = Time.parse(time_for_parse)

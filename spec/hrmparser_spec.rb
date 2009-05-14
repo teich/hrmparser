@@ -109,7 +109,7 @@ module HRMParser
 					workout.distance.should be_close(11740, 5)
 					workout.average_hr.should be_close(149.7, 0.5)
 					workout.average_speed.should be_close(1.5, 0.2)
-					workout.altitude_gain.should be_close(583, 1.0)
+					workout.altitude_gain.should be_close(580, 25)
 				end
 			
 				it "gets workout level settings for weird distance workout" do
@@ -120,7 +120,7 @@ module HRMParser
 					workout.distance.should be_close(9426, 1)
 					workout.average_hr.should == nil
 					workout.average_speed.should be_close(6.7, 0.2)
-					workout.altitude_gain.should be_close(40, 1.0)
+					workout.altitude_gain.should be_close(40, 10)
 				end
 			
 				it "doesn't have any 0 in latitude" do
@@ -178,7 +178,8 @@ module HRMParser
 					workout = importer.restore
 					workout.average_hr.should be_close(152,1)
 					workout.average_speed.should == nil
-					workout.altitude_gain.should be_close(115, 1)
+					workout.trackpoints.each { |tp| tp.speed.should == nil }
+					workout.altitude_gain.should be_close(115, 10)
 				end
 				it "calculates the speed and distance" do
 					filename = "spec/samples/suunto-with-cadence-speed-distance.sdf"
@@ -186,8 +187,8 @@ module HRMParser
 					importer = Importer::Suunto.new(:data => data, :time_zone => "Pacific Time (US & Canada)")
 					workout = importer.restore
 					workout.average_hr.should be_close(131,1)
-					workout.average_speed.should be_close(9.2,0.2)
-					workout.altitude_gain.should be_close(68.3, 0.2)
+					workout.average_speed.should be_close(9.3, 0.1)
+					workout.altitude_gain.should be_close(70, 10)
 					workout.distance.should == 124597
 				end
 				
