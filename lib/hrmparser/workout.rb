@@ -31,7 +31,7 @@ module HRMParser
 			start = smoothed_altitude.first
 			smoothed_altitude.each do |alt|
 				diff = alt - start
-				if (diff > 0)
+				if (diff > 0.5)
 					gain += diff
 				end
 				start = alt
