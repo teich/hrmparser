@@ -11,10 +11,12 @@ module Importer
 			@xml = Hpricot::XML(@data)
 			workout.time = Time.parse((@xml/:Id).innerHTML)
 
-			(@xml/:Lap).each do |lap|
-				f_time =  (lap/:TotalTimeSeconds).innerHTML
-				workout.duration += Float f_time
-			end
+      # Grab the duration from the lap.  This _can_ be totally, completly wrong - AKA 10 years long.
+      # So if we have trackpoints, we'll replace it down lower
+      (@xml/:Lap).each do |lap|
+        f_time =  (lap/:TotalTimeSeconds).innerHTML
+        workout.duration += Float f_time
+      end
 
 			found = false
 			trackpoints = Array.new
@@ -64,6 +66,7 @@ module Importer
 			end 
 
 			if found
+			  workout.duration = trackpoints.last.time - trackpoints.first.time
 				workout.trackpoints = trackpoints
 				workout.calc_average_speed! 
 				workout.calc_altitude_gain!
