@@ -1,3 +1,6 @@
+0.4.8 - May 23, 2009
+	Fixed importing when TCX LAP duration are totally completely incredibly insanely wrong
+	
 0.4.6 - May 11th, 2009
 	Added support for Suunto full variables including speed, distance, etc.
 	
