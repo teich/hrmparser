@@ -23,6 +23,8 @@ module Importer
 			distance_one = nil
 			time_one = nil
 
+      totaldistance = 0
+      
 			(@xml/:Trackpoint).each do |t| 
 				found = true
 				trackpoint = HRMParser::TrackPoint.new
@@ -38,31 +40,37 @@ module Importer
 				trackpoint.distance = dis != "" ? dis.to_f : nil
 
 				(t/:Position).each do |p|
-					trackpoint.lat = (p/:LatitudeDegrees).innerHTML
-					trackpoint.lng = (p/:LongitudeDegrees).innerHTML
+					trackpoint.lat = (p/:LatitudeDegrees).innerHTML.to_f
+					trackpoint.lng = (p/:LongitudeDegrees).innerHTML.to_f
 				end
 
-				trackpoints << trackpoint
+        if trackpoint.distance.nil? && !trackpoint.lat.nil?
+          totaldistance += trackpoint.calc_distance(trackpoints.last, trackpoint)
+				  trackpoint.distance = totaldistance
+        end
+        trackpoint.speed = trackpoint.calc_speed(trackpoints.last, trackpoint)
+        
+        trackpoints << trackpoint
 
 
 				## CALCULATE SPEED.  ICK.
-				if distance_one.nil?
-					distance_one = trackpoint.distance
-					time_one = trackpoint.time
-				else
-					distance_two = trackpoint.distance
-					next if distance_two.nil?
-					time_two = trackpoint.time
-					time_delta = time_two - time_one
-					distance_delta = distance_two - distance_one
-					if (distance_delta > 0 && time_delta > 0)
-						trackpoint.speed = distance_delta / time_delta  
-						distance_one = distance_two
-						time_one = time_two
-					else 
-						trackpoint.speed = nil
-					end      
-				end
+			  # if distance_one.nil?
+			 #         distance_one = trackpoint.distance
+			 #         time_one = trackpoint.time
+			 #       else
+			 #         distance_two = trackpoint.distance
+			 #         next if distance_two.nil?
+			 #         time_two = trackpoint.time
+			 #         time_delta = time_two - time_one
+			 #         distance_delta = distance_two - distance_one
+			 #         if (distance_delta > 0 && time_delta > 0)
+			 #           trackpoint.speed = distance_delta / time_delta  
+			 #           distance_one = distance_two
+			 #           time_one = time_two
+			 #         else 
+			 #           trackpoint.speed = nil
+			 #         end      
+			 #       end
 			end 
 
 			if found

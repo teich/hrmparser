@@ -17,7 +17,7 @@ module HRMParser
 		end
 
 		def calc_distance(pointA, pointB)
-			return 0 if pointA.nil? || pointA.lat.nil?
+			return 0 if pointA.nil? || pointA.lat.nil? || pointB.nil? || pointB.lat.nil?
 
 			dlng = pointB.lng - pointA.lng  
 			dlat = pointB.lat - pointA.lat  
@@ -38,8 +38,9 @@ module HRMParser
 		end
 
 		def calc_speed(pointA, pointB)
-			return 0 if pointA.nil? || pointA.lat.nil?
+			return nil if pointA.nil? || pointA.lat.nil? || pointB.nil? || pointB.lat.nil?
 			time_delta = pointB.time - pointA.time
+			return nil if time_delta == 0
 			distance_delta = pointB.distance - pointA.distance
 			return distance_delta / time_delta
 		end
