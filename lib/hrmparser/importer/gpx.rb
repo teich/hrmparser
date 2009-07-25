@@ -14,6 +14,8 @@ module Importer
 
 			trackpoints = []
 			distance = 0
+			workout.duration = 0
+			last_trackpoint = false
 			(@xml/:trk).each do |trk|
 				(trk/:trkpt).each do |trkpt|
 					trackpoint = HRMParser::TrackPoint.new
@@ -28,11 +30,16 @@ module Importer
 
 					trackpoint.speed = trackpoint.calc_speed(trackpoints.last, trackpoint)
 
+					if last_trackpoint && trackpoints.last && trackpoint.speed
+            workout.duration += trackpoint.time - last_trackpoint.time if trackpoint.speed > 0.04
+          end
 					trackpoints << trackpoint
+					last_trackpoint = trackpoint
+
 				end
 			end
 
-			workout.duration = trackpoints.last.time - trackpoints.first.time
+      # workout.duration = trackpoints.last.time - trackpoints.first.time
 			workout.trackpoints = trackpoints
 			workout.calc_average_speed! 
 			workout.calc_altitude_gain!
