@@ -2,6 +2,7 @@ require 'importer/garmin'
 require 'importer/polar'
 require 'importer/suunto'
 require 'importer/gpx'
+require 'importer/timex'
 
 module Importer
 	def Importer.file_type(name)
@@ -14,6 +15,15 @@ module Importer
 			return "SUUNTO"
 		when /\.gpx$/i
 			return "GPX"
+		when /\.csv$/i
+		  f = File.new(name)
+		  first_line = f.readline
+		  f.close
+		  if first_line.chomp == "[Timex Trainer Data File]"
+		    return "TIMEX"
+	    else
+	      return "UNKNOWN CSV"
+      end
 		end
 	end
 
